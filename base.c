@@ -196,7 +196,7 @@ void           clipboard_callback    (GtkClipboard *clipboard,  const gchar *tex
 	
 	if(check_clipboard(paste)==CC_SOLUTION){
 		thread_flag=1;
-		g_thread_create (auto_play_thread_2, NULL,FALSE, NULL);
+		g_thread_new ("Auto Play Thread 2", auto_play_thread_2, NULL);
 	}
 	else{ //paste levels from clipboard
 		//if(strcmp(level_filename, "Clipboard levels")!=0)
@@ -256,7 +256,8 @@ gboolean    mouse_callback    (GtkWidget   *widget,  GdkEventButton *event,   gp
 			thread_flag=1;
 			//g_message("%s","thread_created!");
 			sokoban_show(skb, draw_area, skin, SS_UPDATE); 
-			g_thread_create (auto_play_thread,NULL,FALSE, NULL);
+			//g_thread_create (auto_play_thread,NULL,FALSE, NULL);
+			g_thread_new ("Auto Play Thread", auto_play_thread,NULL);
 		}
 		else {
 			//if(skb->bi!=0 ){
@@ -607,7 +608,7 @@ int main( int argc,
 	
 
 	//thread stuff
-	g_thread_init(NULL);
+	//g_thread_init(NULL);
 	gdk_threads_init();
 	gdk_threads_enter();
 
