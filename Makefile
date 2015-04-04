@@ -16,5 +16,3 @@ usokoban: $(OBJECTS)
 clean:
 	rm -f $(OBJECTS)
 	rm -f usokoban
-
-#`pkg-config --cflags --libs gtk+-2.0 libpcre sqlite3`
