@@ -1,0 +1,44 @@
+source code for USokoban
+
+(1)the list of files with brief description
+
+base.c            entry of the program
+savitch.c          optional/experimental, can be excluded 
+savitch.h
+setting.c           for writing and reading setting file
+setting.h
+sokoban.c           the core functions for sokoban
+sokoban.h
+sokoban2.c         the header file is also sokoban.h
+solver.c            solver
+solver.h 
+solution.c          solution management
+solution.h
+
+(2)how to compile?
+
+First, make sure the essential tools have been installed on your system. For example, you may use the following command
+to install the missing tools:  
+sudo apt-get install build-essential pkg-config libgtk2.0-dev libpcre3-dev libsqlite3-dev
+
+GTK+ is used for the graphical user interface, PCRE is used for reading the XSB format level file,
+and SQLite is used for solution management.
+
+To compile, use the following command:
+
+gcc base.c settings.c sokoban.c sokoban2.c solver.c savitch.c solution.c -o usokoban `pkg-config --cflags --libs gtk+-2.0 libpcre sqlite3`
+
+If everything goes well, you will get an output executable name 'usokoban'
+
+To run the executable, external files (such as skin images) from usokoban-0.0.9-i386.tar.gz are needed.
+If usokoban 0.0.9 has been properly installed, the newly compiled executable can be launched from any location.
+(the paths of external files are hard-coded into the program, so the executable is able to find them
+if USokoban 0.0.9 has been installed)
+
+
+
+ -- Julian Gilbey <jdg@debian.org>, Wed, 28 Dec 2011 10:33:20 +0000
+last updated by Chao Yang <yangchao0710@gmail.com> 2012-07-11 08:33:56 
+
+
+
