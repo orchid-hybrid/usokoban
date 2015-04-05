@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <unistd.h>
 
 #include "settings.h"
 
@@ -42,19 +43,31 @@ void save_settings(GtkWidget *top){
 }
 
 void init_settings(){
-
-	level_filename=g_malloc(1024);  level_folder=g_malloc(1024); 
-
-	strcpy(level_filename, "/usr/share/games/usokoban"); strcat(level_filename,"/alphabet.txt");
-	c_level=0;
-	strcpy(skin_files[0],"/usr/share/games/usokoban/skin12.png");
-	strcpy(skin_files[1],"/usr/share/games/usokoban/skin18.png");
-	strcpy(skin_files[2],"/usr/share/games/usokoban/skin36.png");
-	strcpy(skin_files[3],"/usr/share/games/usokoban/skin54.png");
-	strcpy(skin_filename,"/usr/share/games/usokoban/skin36.png");
-	strcpy(level_folder, "/usr/share/games/usokoban");
-				
-	return;
+  char cwd[1024] = { 0 };
+  
+  if(getcwd(cwd, sizeof(cwd)) == NULL) {
+    cwd[0]=0;
+    perror("getcwd() error");
+  }
+  
+  level_filename=g_malloc(1024);  level_folder=g_malloc(1024); 
+  
+  strcpy(level_filename, cwd); strcat(level_filename,"/levels/takaken.txt");
+  c_level=0;
+  strcpy(skin_files[0], cwd); 
+  strcat(skin_files[0],"/skins/skin12.png");
+  strcpy(skin_files[1], cwd); 
+  strcat(skin_files[1],"/skins/skin18.png");
+  strcpy(skin_files[2], cwd); 
+  strcat(skin_files[2],"/skins/skin36.png");
+  strcpy(skin_files[3], cwd); 
+  strcat(skin_files[3],"/skins/skin54.png");
+  strcpy(skin_filename, cwd); 
+  strcat(skin_filename,"/skins/skin36.png");
+  strcpy(level_folder, cwd); 
+  strcat(level_folder, "/levels");
+  
+  return;
 
 }
 
