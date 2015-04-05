@@ -8,7 +8,7 @@ LIBS=-lz `pkg-config --libs $(DEPS)`
 all: usokoban $(OBJECTS)
 
 usokoban: $(OBJECTS)
-	gcc $(LIBS) $(OBJECTS) -o usokoban
+	gcc $(OBJECTS) $(LIBS) -o usokoban
 
 %.o: %.c
 	gcc -c $(CFLAGS) $< -o $@
