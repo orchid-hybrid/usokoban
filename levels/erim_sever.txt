@@ -1,0 +1,3656 @@
+;These levels are copyright Erim Sever from Turkey <erimsever@yahoo.com> or <erimsever@graffiti.net> 
+;
+;My Sokoban web page is : <http://www.geocities.com/erimsever/sokoban.htm>
+;You can find all my levels with updates at : <http://www.geocities.com/erimsever/sokoban/all_levels.txt>
+;
+;Sokofan v1.5 and upper versions support Sokoban & SokoMindPlus & Hexoban & HexobanPlus & Multiban & MultibanPlus Levels at <http://www.freewebs.com/sokofan>
+;Sokomind v3.4 support Sokoban & SokoMind Plus levels at <http://www.sokomind.de>
+;SokoSave v5.1b19 support Sokoban & Hexoban & Trioban levels at <http://www.high-speed-software.com/sokosave/>
+;
+;erim001.xsb
+#####
+#   #####
+# $     #  #####
+# $# @# ####. .###
+# $ $## #     ...#
+###$    #  ## ...#
+  #    $    ## ###
+  ####  ##$$   #
+     #####  ####
+         #  #
+         ####
+Title: erim001-first collection
+Author: Erim SEVER from TURKEY
+
+;erim002.xsb
+      ####
+    ###..#
+    #  ..#
+    #  $ #
+###### ###
+#@     ###
+## # $ $ #
+ # $ # # #
+ #   #   #
+ #########
+Title: erim002-first collection
+Author: Erim SEVER from TURKEY
+
+;erim003.xsb
+######
+#....####
+#@ $$$ .#
+##  $   #
+ ####$# #
+    #   #
+    #####
+Title: erim003-first collection
+Author: Erim SEVER from TURKEY
+
+;erim004.xsb
+#########
+#  @##  #
+# $$  ..##
+#  $$#.. #
+# $$ #.. #
+#  # #####
+##   #
+ #####
+Title: erim004-first collection
+Author: Erim SEVER from TURKEY
+
+;erim005.xsb
+####
+#..###
+#...@######
+#..$      #
+###$ ###  #
+### $# $ ##
+#    $   #
+# $$ ##  #
+#   ###  #
+##### ####
+Title: erim005-first collection
+Author: Erim SEVER from TURKEY
+
+;erim006.xsb
+      ####
+ ######  #
+##  @#...#
+#  $ #.*.#
+# $####.*#
+#    .#  #
+# $#$##$ #
+#  $ ##  #
+###     $#
+  ####   #
+     #  ##
+     ####
+Title: erim006-first collection
+Author: Erim SEVER from TURKEY
+
+;erim007.xsb
+########
+#@     #
+# * *  #
+#*$***.#
+# *    #
+#     ##
+#######
+Title: erim007-first collection
+Author: Erim SEVER from TURKEY
+
+;erim008.xsb
+      ####
+      #  #
+ ######  ###
+##   ##    #
+#@$  $ $#  #
+#  ##$$  $ #
+## $  ##.$ #
+ ##   #..*##
+  #####...#
+      #..##
+      ####
+Title: erim008-first collection
+Author: Erim SEVER from TURKEY
+
+;erim009.xsb
+  ######
+  # $..#
+###  *.#
+#  $ *.#
+# $$$#.#
+#  # ###
+#@   #
+######
+Title: erim009-first collection
+Author: Erim SEVER from TURKEY
+
+;erim010.xsb
+  ######
+  #    #
+###$ $ ####
+#   $   $ ##
+# $ # $ .* #
+###  #  #. #
+  #  $ #..@#
+  #  $##...#
+  ## $ #####
+   #  .#
+   ###.#
+     ###
+Title: erim010-first collection
+Author: Erim SEVER from TURKEY
+
+;erim011.xsb
+  #####
+ ##   ####
+ # $   $ #
+ #. $$#$@#
+##.##  $ #
+# *.#   ##
+# ... ###
+#######
+Title: erim011-first collection
+Author: Erim SEVER from TURKEY
+
+;erim012.xsb
+######
+#    ####
+# ##    #
+#  $ $  #
+##$  # ##
+ #   #$ #
+ # $$$ @#
+####.$###
+#.... ..#
+#   .####
+######
+Title: erim012-first collection
+Author: Erim SEVER from TURKEY
+
+;erim013.xsb
+  ####
+###  ######
+#    #@   #
+#  # $ $$ #
+#   $    ##
+##$## ####
+ #  #$ #
+ ##....#
+  ###. #
+    #. #
+    ####
+Title: erim013-first collection
+Author: Erim SEVER from TURKEY
+
+;erim014.xsb
+ ######
+ #    #
+##  $$##
+#  #$  #
+# $  #.##
+#  $##..###
+##   ...$ #
+ ####@    #
+    #######
+Title: erim014-first collection
+Author: Erim SEVER from TURKEY
+
+;erim014new.xsb
+ ######
+ #    #
+##  $$##
+#  #$  #
+# $  #.##
+#  $##..###
+##   ...$ #
+ ####@*   #
+    #######
+Title: erim014new-second collection
+Author: Erim SEVER from TURKEY
+
+;erim015.xsb
+          #####
+          #...#
+          #.. #
+######### #...#
+#.      # #  ##
+#.  $ $ # #  #
+## $##### #  #
+ #  ####  ## ##
+ # $$  #####  #
+ #            #
+ # ########$  #
+ # ###### # $ #
+ #   $  # #$  #
+ #   $  # #   #
+ ##### @# #####
+     ####
+Title: erim015-first collection
+Author: Erim SEVER from TURKEY
+
+;erim016.xsb
+    ####
+   ##..#
+  ##  $#
+ ##  $ #
+##  $ ##
+# $  ##
+#  $##
+#  $ ##
+##  $ ##
+ ##  $@##
+  ##  $ ##
+   ##  $ ####
+    ##  $ ..###
+     ##.......#
+      #########
+Title: erim016-first collection
+Author: Erim SEVER from TURKEY
+
+;erim017.xsb
+ #######
+ #     #
+## .$* #
+#  *@* #
+#  *$. #
+##    ##
+ ######
+Title: erim017-first collection
+Author: Erim SEVER from TURKEY
+
+;erim018.xsb
+ #######
+ #     #
+## .** #
+#  $@$ #
+#  **. #
+##    ##
+ ######
+Title: erim018-first collection
+Author: Erim SEVER from TURKEY
+
+;erim019.xsb
+ #######
+ #     #
+## .*$ #
+#  *@* #
+#  $*. #
+##    ##
+ ######
+Title: erim019-first collection
+Author: Erim SEVER from TURKEY
+
+;erim020.xsb
+#######
+#     ##
+# **$$ #
+# *+.  #
+# *** ##
+#     #
+#######
+Title: erim020old-first collection
+Author: Erim SEVER from TURKEY
+
+;erim020new.xsb
+#######
+#     ##
+# .*$$ #
+# * #@ #
+# .*  ##
+#     #
+#######
+Title: erim020new-first collection
+Author: Erim SEVER from TURKEY
+
+;erim021.xsb
+  #####
+  #   #
+  # # #######
+  #         #
+### #### #  #
+#   ### ## ##
+# # * ###+$#
+#  $* #    #
+###    .* ##
+  ### ## ##
+    #    #
+    ######
+Title: erim021-first collection
+Author: Erim SEVER from TURKEY
+
+;erim022.xsb
+##########
+#   ##   #
+#      $ #
+### ###$##
+  # # # #
+ ## ##  ####
+ #       $ #
+ # $## ### #
+ #  #    # #
+ ####  # # #
+   #.# ##@ #
+   #*.  ####
+   #..  #
+   #    #
+   ######
+Title: erim022-first collection
+Author: Erim SEVER from TURKEY
+
+;erim023.xsb
+      #######
+ ######     #
+ #   ##$$$$ #
+ #          #
+ ### ########
+   # #
+#### #
+#  # ##
+# ....#
+#     #
+#   #@#
+#######
+Title: erim023-first collection
+Author: Erim SEVER from TURKEY
+
+;erim024.xsb
+ ################################
+ #                              #
+ # ###  ##################### # #
+ # #                          # #
+ # # # ###################### # #
+ # # #                      # # #
+ # # # #################### # # #
+ # # # #                  # # # #
+ # # # # ################ # # # #
+ # # # # #              # # # # #
+ # # # # # ########## # # # # # #
+ # # # # # #@$          # # # # #
+ # # # # # ########## # # # # # #
+ # # # # #            # # # # # #
+ # # # # ############ # # # # # #
+ # # # #                # # # # #
+ # # # #  ############### # # # #
+ # # #                    # # # #
+ # # #  ################### # # #
+ # # #                      # # #
+ # # ######################## # #
+ # #                            #
+## # ########################## #
+#.                              #
+#################################
+Title: erim024-first collection
+Author: Erim SEVER from TURKEY
+
+;erim025new.xsb
+   ###
+  ##.##
+###...###
+#       #
+# $$ $$ #
+#  # #  #
+####$####
+#  # # @#
+# $ $ $ #
+#   *   #
+###...###
+  ##.##
+   ###
+Title: erim025-first collection
+Author: Erim SEVER from TURKEY
+
+;erim026new.xsb
+  ####
+###  #
+# .$.###
+# $@$  #
+##.$.  #
+ #  ####
+ ##  #
+  #  #
+  #  #
+  ####
+Title: erim026-first collection
+Author: Erim SEVER from TURKEY
+
+;erim027.xsb
+  #######
+ ##... .#
+ # $#.# #
+ #$@  $ #
+## ##$# #
+# $     #
+#   #  ##
+########
+Title: erim027-first collection
+Author: Erim SEVER from TURKEY
+
+;erim028.xsb
+  #######
+ ##...  #
+ #  #$# #
+ #    # #
+## ##$# #
+#    $  #
+#@  #  ##
+########
+Title: erim028-first collection
+Author: Erim SEVER from TURKEY
+
+;erim029kid.xsb
+######
+#  ..#
+#$$$ #
+#.  @#
+######
+Title: erim029(for kids)-first collection
+Author: Erim SEVER from TURKEY
+
+;erim030kid.xsb
+######
+# .  #
+#$$$ #
+#. .@#
+######
+Title: erim030(for kids)-first collection
+Author: Erim SEVER from TURKEY
+
+;erim031kid.xsb
+ #########
+##  $@...#
+#  $$#####
+#    #
+##   #
+ #####
+Title: erim031(for kids)-first collection
+Author: Erim SEVER from TURKEY
+
+;erim032kid.xsb
+######
+#... #
+# #$ #
+# $  #
+# $ ##
+#@ ##
+####
+Title: erim032(for kids)-first collection
+Author: Erim SEVER from TURKEY
+
+;erim033.xsb
+######
+#  @ #
+# $  #
+## #$#
+# $$ #
+#  $.#
+#....#
+######
+Title: erim033-first collection
+Author: Erim SEVER from TURKEY
+
+;erim034.xsb
+######
+#    #
+# $ .#
+# .$ #
+#.$###
+##@#
+ ###
+Title: erim034-first collection
+Author: Erim SEVER from TURKEY
+
+;erim035.xsb
+####
+#  #############
+#        $@....#
+#  #######$#####
+## #.. ..# #
+ # #*$ $ $ #
+ # $  $  # #
+## ###   # ##
+# $#######  #
+#           #
+##########  #
+         ####
+Title: erim035-first collection
+Author: Erim SEVER from TURKEY
+
+;erim036.xsb
+   #####
+   #   #
+  ## # ##
+### $   #
+#...$$# #
+###@#   #
+  #######
+Title: erim036-first collection
+Author: Erim SEVER from TURKEY
+
+;erim037.xsb
+   #####
+  ##   #
+  #  # #
+  # $  #
+###$ # #
+#..* # #
+##@#   #
+ #######
+Title: erim037-first collection
+Author: Erim SEVER from TURKEY
+
+;erim038.xsb
+########
+#...#  #
+# .*   ##
+##@$$$  #
+ ### $  #
+   #   ##
+   ##  #
+    ####
+Title: erim038-first collection
+Author: Erim SEVER from TURKEY
+
+;erim039.xsb
+########
+#   * @#
+# $. * ##
+### *.  ###
+ # *.*$$  #
+ #        #
+ #######  #
+       ####
+Title: erim039-first collection
+Author: Erim SEVER from TURKEY
+
+;erim040.xsb
+########
+#   .$@#
+# $. * ##
+## #**  ###
+ # *.*  $ #
+ #        #
+ #######  #
+       ####
+Title: erim040-first collection
+Author: Erim SEVER from TURKEY
+
+;erim040new.xsb
+########
+#   .$@#
+# $. * #
+## #** ####
+ # *.*  $ #
+ #        #
+ ##########
+Title: erim040new-second collection
+Author: Erim SEVER from TURKEY
+
+;erim041.xsb
+######
+#....#
+#.$*$###
+#@* $  #
+### $  #
+  #  $ #
+  ##   #
+   #####
+Title: erim041-first collection
+Author: Erim SEVER from TURKEY
+
+;erim042.xsb
+#####
+#...##
+#.$$ ###
+#@* $ .#
+### $  #
+  #  $ #
+  ###  #
+    ####
+Title: erim042-first collection
+Author: Erim SEVER from TURKEY
+
+;erim043kid.xsb
+ ##########
+##     .*+#
+#  $$######
+#    #
+##   #
+ #####
+Title: erim043-ForKids-first collection
+Author: Erim SEVER from TURKEY
+
+;erim044.xsb
+#######
+#  #  #
+#  #  #
+# $$  #
+#@ .$##
+###..#
+  ####
+Title: erim044-second collection
+Author: Erim SEVER from TURKEY
+
+;erim045.xsb
+######
+#....###
+# ***  #
+#@$ $  #
+### $$ #
+  #    #
+  ######
+Title: erim045-second collection
+Author: Erim SEVER from TURKEY
+
+;erim046.xsb
+######
+# ...###
+# $$*  #
+#@$ *  #
+### ** #
+  #    #
+  ######
+Title: erim046-second collection
+Author: Erim SEVER from TURKEY
+
+;erim047.xsb
+   ####
+####  #
+#@   $#
+#  #. ##
+## .#  #
+ #$    #
+ #  ####
+ ####
+Title: erim047-second collection
+Author: Erim SEVER from TURKEY
+
+;erim048.xsb
+  ####
+  #  #
+###  ###
+#  $*  #
+#  *. @#
+###  ###
+  #  #
+  ####
+Title: erim048-second collection
+Author: Erim SEVER from TURKEY
+
+;erim049.xsb
+  ####
+  #  #
+###  #
+#  $$##
+# . . #
+###  @#
+  #####
+Title: erim049-second collection
+Author: Erim SEVER from TURKEY
+
+;erim050.xsb
+   ####
+  ##  #
+###   ##
+#  $.$ ##
+#  .#.  #
+###$.$  #
+  #   ###
+  #@ ##
+  ####
+Title: erim050-second collection
+Author: Erim SEVER from TURKEY
+
+;erim051.xsb
+    ####
+##### .#
+#    $*#
+#   #@ #
+########
+Title: erim051-ForKids-second collection
+Author: Erim SEVER from TURKEY
+
+;erim052.xsb
+     ####
+ #####@ #
+ #  #  $#
+##$ $ $.##
+#   ##$..#
+#      ..#
+##########
+Title: erim052-second collection
+Author: Erim SEVER from TURKEY
+
+;erim053.xsb
+ #####
+##.$.#
+#  # #
+# $$ #
+#.  @#
+######
+Title: erim053-second collection
+Author: Erim SEVER from TURKEY
+
+;erim054.xsb
+######
+#..$ #
+#.$$ #
+###@ #
+  ####
+Title: erim054-second collection
+Author: Erim SEVER from TURKEY
+
+;erim055.xsb
+#####
+#. .#
+# $ #
+# * #
+# $ #
+## @#
+ ####
+Title: erim055-second collection
+Author: Erim SEVER from TURKEY
+
+;erim056.xsb
+######
+#.  .#
+# $$$#
+#$ * #
+#. @.#
+######
+Title: erim056-second collection
+Author: Erim SEVER from TURKEY
+
+;erim057.xsb
+    #####
+  ###   #
+  #  $  #
+ ## $ # #
+## $  # #
+# $  ##.#
+#   ##.*#
+# $##...#
+#      ##
+##### @#
+    ####
+Title: erim057-second collection
+Author: Erim SEVER from TURKEY
+
+;erim058.xsb
+ #####     #####
+ #   #     #   #
+ # $ ####### $ ##
+## $$ $ # .**.. #
+#   $  $   $.   #
+# $     # $ .#*##
+###@ ###### ...#
+  ####    #..###
+          ####
+Title: erim058-second collection
+Author: Erim SEVER from TURKEY
+
+;erim059.xsb
+ #####
+ #   #
+##$. #
+# ** #
+# $. #
+# ** #
+#   @#
+######
+Title: erim059-second collection
+Author: Erim SEVER from TURKEY
+
+;erim060.xsb
+    #####
+#####   #
+#   #   #
+# $$$$$ #
+#@..... #
+#########
+Title: erim060-second collection
+Author: Erim SEVER from TURKEY
+
+;erim061.xsb
+########
+#@ ##  ##
+#   #   #
+# $$$$$ #
+# ..... #
+#########
+Title: erim061-second collection
+Author: Erim SEVER from TURKEY
+
+;erim062.xsb
+#######
+#  #  #
+#  #  #
+# $$$ #
+# @...#
+#######
+Title: erim062-second collection
+Author: Erim SEVER from TURKEY
+
+;erim063.xsb
+    ####
+    #  ##
+ #### $ #####
+ #  # # ##  ##
+ #  $  $+....#
+ #  # ##$##.##
+ ## # ## #.. #
+ #  #  # #.. #
+ #    $#  #. #
+##  ##    ####
+# $$ #  $ #
+#  $  $ $##
+#    #   #
+##########
+Title: erim063-second collection
+Author: Erim SEVER from TURKEY
+
+;erim064.xsb
+  #####
+  #   #
+### $ ###
+#   $   ##
+# .**.$*.#
+#   $    #
+### * ####
+  # . #
+  #  @#
+  #####
+Title: erim064-second collection
+Author: Erim SEVER from TURKEY
+
+;erim065.xsb
+ ####
+ #. ###
+##*$  #
+# .$ @#
+# * ###
+#   #
+#####
+Title: erim065-second collection
+Author: Erim SEVER from TURKEY
+
+;erim066.xsb
+######
+#    ###
+# $*.$ #
+# $ .. #
+##  @###
+ #####
+Title: erim066-second collection
+Author: Erim SEVER from TURKEY
+
+;erim067.xsb
+  ####
+### .#
+#@   ##
+# $$..#
+# $ $.#
+##  ###
+ ####
+Title: erim067-second collection
+Author: Erim SEVER from TURKEY
+
+;erim068.xsb
+  ####
+  #  #
+###  ##
+#  *$ #
+# #.# #
+#    @#
+#######
+Title: erim068-second collection
+Author: Erim SEVER from TURKEY
+
+;erim069.xsb
+   ####
+   #  #
+ ###  #
+## $.$###
+#  .*.  #
+#  $.$  #
+###  ####
+  #@ #
+  ####
+Title: erim069-second collection
+Author: Erim SEVER from TURKEY
+
+;erim070.xsb
+   ####
+####  #
+# $  $#
+#   ..###
+##..*   #
+ #$  $  #
+ # @#####
+ ####
+Title: erim070new-second collection
+Author: Erim SEVER from TURKEY
+
+;erim071.xsb
+   ####
+####  #
+# $  $#
+#   ..##
+##..   #
+ # $ $ #
+ # @####
+ ####
+Title: erim071-second collection
+Author: Erim SEVER from TURKEY
+
+;erim072.xsb
+ ######
+ #... #
+ #.$$ #
+##$ # ##
+#  #   #
+#  $   #
+#@  ####
+#####
+Title: erim072-second collection
+Author: Erim SEVER from TURKEY
+
+;erim073.xsb
+   ####
+####  #
+#    $#
+# ..*.##
+## *$  #
+ #$   @#
+ #  ####
+ ####
+Title: erim073-second collection
+Author: Erim SEVER from TURKEY
+
+;erim074.xsb
+   ####
+####  #
+#    $#
+# ..* ##
+##.*   #
+ #$  $@#
+ #  ####
+ ####
+Title: erim074-second collection
+Author: Erim SEVER from TURKEY
+
+;erim075.xsb
+ ####
+ #  #
+##  ######
+#  *#@*  #
+#    **  #
+##  #  ###
+ ####  #
+    ####
+Title: erim075-StartWithEndPosition-second collection
+Author: Erim SEVER from TURKEY
+
+;erim076.xsb
+    ####
+    #  #
+#####  #
+##   **###
+#  **@*  #
+#    **  #
+###  * ###
+  ##   #
+   #####
+Title: erim076-StartWithEndPosition-second collection
+Author: Erim SEVER from TURKEY
+
+;erim077.xsb
+    #######
+    #     #
+    #* $ $#####
+  ###  $ $    ####
+  #. # ##*$$$@   #
+###.$# #.$ $ ##$ #
+# $        *.# *.#
+#.  #  #  $     ##
+#.  .#######$. $#
+#.. .#     #... #
+######     ######
+Title: erim077-second collection
+Author: Erim SEVER from TURKEY
+
+;erim078.xsb
+      #######
+  #####     #
+ ##   #  #$ #
+ #  $   ##  ###
+##$$.# @ $ *  #
+# *..# * * #  #
+#   ## ## *.* #
+###$   .##    #
+  #  * .#######
+  #######
+Title: erim078-second collection
+Author: Erim SEVER from TURKEY
+
+;erim079.xsb
+     ####
+    ##  #
+#####   #
+#     * #
+#  **** ##
+##  *@*  ##
+ ## ****  #
+  # *     #
+  #   #####
+  #  ##
+  ####
+Title: erim079-StartWithEndPosition-second collection
+Author: Erim SEVER from TURKEY
+
+;erim080.xsb
+     ####
+     #  #
+######  #
+#     *.#
+#  $$$*.#
+###.*@*.###
+  #.*$$$  #
+  #.*     #
+  #  ######
+  #  #
+  ####
+Title: erim080-second collection
+Author: Erim SEVER from TURKEY
+
+;erim081.xsb
+   ####
+####  ###
+#       #
+#  ***  #
+## *   ##
+ # ***  #
+ # *@*  #
+ #  *  ##
+ #######
+Title: erim081-StartWithEndPosition-second collection
+Author: Erim SEVER from TURKEY
+
+;erim082.xsb
+#####
+#+$.#
+# $ #
+#$$ #
+# $ #
+#...#
+#####
+Title: erim082-second collection
+Author: Erim SEVER from TURKEY
+
+;erim083.xsb
+   ####
+####  ##
+#      ##
+#. ***  #
+## $@*  #
+ #  *  ##
+ #######
+Title: erim083-second collection
+Author: Erim SEVER from TURKEY
+
+;erim084.xsb
+      #######
+ ######     #
+ #   ##$$$$ #
+ #          #
+ ### ########
+   # #
+#### #
+#  # ##
+# ....#
+#  $. #
+#   #@#
+#######
+Title: erim084-second collection
+Author: Erim SEVER from TURKEY
+
+;erim085.xsb
+   ####
+####  ##
+#      ##
+#  ***  #
+## $@*  #
+ #  *. ##
+ #######
+Title: erim085-second collection
+Author: Erim SEVER from TURKEY
+
+;erim086.xsb
+      ####
+   ####  #
+   #     #
+#### $  $###
+# $ *  *.  #
+#  $..$.*  #
+##$ .*@*. $##
+ #  *.$..$  #
+ #  .* .* $ #
+ ###$. $ ####
+   #     #
+   #  ####
+   ####
+Title: erim086-second collection
+Author: Erim SEVER from TURKEY
+
+;erim087.xsb
+      ####
+   #### .#
+   #.  $ #
+#### # * ###
+#  $ $  #. #
+#. $##.*  $#
+##  # @ #  ##
+ #$  *.##$ .#
+ # .#  $ $  #
+ ### *   ####
+   # $  .#
+   #. ####
+   ####
+Title: erim087-second collection
+Author: Erim SEVER from TURKEY
+
+;erim088.xsb
+      ####
+   ####  #
+   #     #
+####$  $ ###
+# $  #.$#  #
+#    *..#$ #
+##   #+##  ##
+ # $#...    #
+ #  #$.#  $ #
+ ###  ..$####
+   # $   #
+   #  ####
+   ####
+Title: erim088-second collection
+Author: Erim SEVER from TURKEY
+
+;erim089.xsb
+    ######
+  ###    #
+ ## $. $ #
+## $ .$ ##
+# $. * ##
+#  .$.##
+##$.$.#
+ # .$.##
+ ##. $ #
+  ##  @#
+   #####
+Title: erim089-second collection
+Author: Erim SEVER from TURKEY
+
+;erim090.xsb
+   ####
+#### .#
+#.    #
+# $ *$##
+##$* $ #
+ #    .#
+ #.@####
+ ####
+Title: erim090-second collection
+Author: Erim SEVER from TURKEY
+
+;erim091.xsb
+#####
+#   ##
+# $  ###
+# $$.*.#
+# .$*.*#
+##..$$.#
+ #*..$$##
+ #    $ #
+ ####  @#
+    #####
+Title: erim091-second collection
+Author: Erim SEVER from TURKEY
+
+;erim092.xsb
+#####
+#   ##
+# $  ###
+# $$.*.#
+# .$$.*#
+##..*$.#
+ #*..$$##
+ #    $ #
+ ####  @#
+    #####
+Title: erim092-second collection
+Author: Erim SEVER from TURKEY
+
+;erim093.xsb
+########
+#      #
+# *** @#
+# $ . ##
+# $$* #
+# *.. #
+# $ . #
+# *** #
+#######
+Title: erim093-second collection
+Author: Erim SEVER from TURKEY
+
+;erim094.xsb
+#######
+#     #
+# $$$ #
+# *..##
+# $$*#
+# $ .#
+# *..#
+# $$*#
+#@...#
+######
+Title: erim094-ForKids-second collection
+Author: Erim SEVER from TURKEY
+
+;erim095.xsb
+######
+#    #
+# $. ##
+##$.$ #
+ # . @#
+ ######
+Title: erim095-second collection
+Author: Erim SEVER from TURKEY
+
+;erim096.xsb
+####   #####
+#  #####   #
+# $$     $ #
+#  # ## # ##
+## #... # #
+ #  .*.## #
+##$##.. # #
+# $   $ #$#
+#   ##   @#
+###########
+Title: erim096-ILostThisLevelAndThxStephanieFabianForRescue-second collection
+Author: Erim SEVER from TURKEY
+
+;erim097.xsb
+ #####
+##   #
+# .$.###
+# $@$  #
+# .$.  #
+########
+Title: erim097-second collection
+Author: Erim SEVER from TURKEY
+
+;erim098.xsb
+ #####
+##   #
+# .$.#####
+# $+$    #
+##.$. $  #
+ #########
+Title: erim098-second collection
+Author: Erim SEVER from TURKEY
+
+;erim099.xsb
+#####
+#@$.#
+# $.#
+##$.#
+#   #
+#   #
+#####
+Title: erim099-ForKids-second collection
+Author: Erim SEVER from TURKEY
+
+;erim100.xsb
+       ######
+  ######    #
+ ##   #  #$ #
+ #  $   *#  ###
+##$$.# @ * *  #
+# *..# * * #  #
+#   ## ## * * #
+###$   .##    #
+  #  * .#######
+  #######
+Title: erim100-second collection
+Author: Erim SEVER from TURKEY
+
+;erim101.xsb
+ ########
+ #      #
+ # $**. #
+ # *  * #
+ # *  *##
+ # *  * #
+ # *# * #
+ # .**$ #
+ #     @#
+ ########
+Title: erim101-second collection
+Author: Erim SEVER from TURKEY
+
+;erim102.xsb
+########
+#      #
+# $**. #
+# * ** #
+# *  * #
+# *  * #
+# .**$ #
+#     @#
+########
+Title: erim102-second collection
+Author: Erim SEVER from TURKEY
+
+;erim103.xsb
+ ########
+ #      #
+ # $**. #
+ # * ** #
+ # *  * #
+ # *  *##
+ # *  * #
+ # *# * #
+ # .**$ #
+ #     @#
+ ########
+Title: erim103-second collection
+Author: Erim SEVER from TURKEY
+
+;erim104.xsb
+  #####
+###   ###
+# $*.*$ #
+# $...$ #
+#   @   #
+#########
+Title: erim104-ForKids-second collection
+Author: Erim SEVER from TURKEY
+
+;erim105.xsb
+##########
+#   ##   #
+# $..* $@#
+#    #####
+##   #
+ #####
+Title: erim105-second collection
+Author: Erim SEVER from TURKEY
+
+;erim106.xsb
+###########
+#   #     #
+# *..* $ @#
+#  $ ######
+##   #
+ #####
+Title: erim106-second collection
+Author: Erim SEVER from TURKEY
+
+;erim107.xsb
+#######
+#     #
+# $ # #
+# .*  #
+#  $#*#
+#* .*@#
+#######
+Title: erim107-ForKids-second collection
+Author: Erim SEVER from TURKEY
+
+;erim108.xsb
+########
+#@  #  ##
+#  $  $ #
+# $*$*$ #
+# ..... #
+#########
+Title: erim108-second collection
+Author: Erim SEVER from TURKEY
+
+;erim109.xsb
+  ####
+  #  #
+###  #
+#  $*#
+#@  .#
+######
+Title: erim109-ILoveKids-second collection
+Author: Erim SEVER from TURKEY
+
+;erim110.xsb
+  ####
+  # @#
+###. #
+#  $$#
+#   .#
+######
+Title: erim110-ILoveVeryLittleKidsToo-second collection
+Author: Erim SEVER from TURKEY
+
+;erim111.xsb
+   ####
+   #  #
+####  #
+# $ $ #
+#@$   ####
+### $ $  #
+  ##  ...#
+   ## ..##
+    #####
+Title: erim111-second collection
+Author: Erim SEVER from TURKEY
+
+;erim112.xsb
+  ####
+###  ###
+#.* $  #
+#*.* $ ##
+#.*.$ $ #
+#*.* $ @#
+#.* $ ###
+#######
+Title: erim112-second collection
+Author: Erim SEVER from TURKEY
+
+;erim113.xsb
+########
+#   #  ##
+# $  *  #
+#$ $* * #
+#.$..*. #
+# # # # #
+#.*  $. #
+#* *$ $ #
+# *..$@##
+########
+Title: erim113-second collection
+Author: Erim SEVER from TURKEY
+
+;erim114.xsb
+  ####
+###  #
+#    ###
+# $   @###
+### $  $ #
+  ###$...#
+    # .###
+    ####
+Title: erim114-second collection
+Author: Erim SEVER from TURKEY
+
+;erim115.xsb
+  ####
+ ##  #
+##   ###
+#  .*  #
+# $ *  #
+###   ##
+  #@ ##
+  ####
+Title: erim115-second collection
+Author: Erim SEVER from TURKEY
+
+;erim116.xsb
+    #####
+    #   #
+#####  $####
+# $ $ $....#
+#....$ $ $ #
+####$  #####
+   #  @#
+   #####
+Title: erim116-second collection
+Author: Erim SEVER from TURKEY
+
+;erim117.xsb
+#######
+#  #@ ##
+# $  $ #
+#.*  *.#
+########
+Title: erim117-ForKids-second collection
+Author: Erim SEVER from TURKEY
+
+;erim118.xsb
+########
+#.# @#.#
+# $  $ #
+# $..$ #
+#  #  ##
+#######
+Title: erim118-ForKids-second collection
+Author: Erim SEVER from TURKEY
+
+;erim119.xsb
+  ####
+ ##  ##
+##  $ ##
+# .... #
+# *$$$ #
+##    ##
+ ## @##
+  ####
+Title: erim119-second collection
+Author: Erim SEVER from TURKEY
+
+;erim120.xsb
+  ####
+ ##  ##
+##....##
+#  .$  #
+# $$$$ #
+##    ##
+ ## @##
+  ####
+Title: erim120-second collection
+Author: Erim SEVER from TURKEY
+
+;erim121.xsb
+  ####
+ ##  ##
+##    ##
+#   $  #
+#.**$*.#
+##    ##
+ ## @##
+  ####
+Title: erim121-second collection
+Author: Erim SEVER from TURKEY
+
+;erim122.xsb
+   #####
+  ##   ##
+ ##  .  ##
+## *$*$* ##
+#  . . .  #
+# **$*$*$ #
+#  . . .  #
+## *$ $* ##
+ ##  *  ##
+  ##  @##
+   #####
+Title: erim122-second collection
+Author: Erim SEVER from TURKEY
+
+;erim123.xsb
+  ######
+ ##    ##
+## .  . ##
+#  * $.  #
+# $*$$*$ #
+## .  .@##
+ ########
+Title: erim123-second collection
+Author: Erim SEVER from TURKEY
+
+;erim124.xsb
+  ########
+ ##      #
+##  $.$*.#
+#  $**.$.#
+# $*.$.  #
+#  $.  ###
+##  @###
+ #####
+Title: erim124-second collection
+Author: Erim SEVER from TURKEY
+
+;erim125.xsb
+ ####
+ #  ##
+ # . ###
+## *   ##
+#  * *  #
+# ***** #
+#  * *  #
+###  * ##
+  ## $ #
+   #  @#
+   #####
+Title: erim125-second collection
+Author: Erim SEVER from TURKEY
+
+;erim126.xsb
+    #####
+    #   #
+#####$  #
+#@$..$* #
+## $.  ##
+ ###  .#
+   #####
+Title: erim126-second collection
+Author: Erim SEVER from TURKEY
+
+;erim127.xsb
+#####
+#   #
+#$$ ##
+#..*@#
+######
+Title: erim127-ForKids-second collection
+Author: Erim SEVER from TURKEY
+
+;erim128.xsb
+######
+#    #
+#  $ #
+#$$$ ##
+#...*+#
+#######
+Title: erim128-second collection
+Author: Erim SEVER from TURKEY
+
+;erim129.xsb
+#######
+#     #
+# $ $ #
+#$$$* ##
+#....*+#
+########
+Title: erim129-second collection
+Author: Erim SEVER from TURKEY
+
+;erim130.xsb
+#######
+#    .#
+#$$$$ ##
+#....$@#
+########
+Title: erim130-second collection
+Author: Erim SEVER from TURKEY
+
+;erim131.xsb
+ #####
+##   #
+#  * ###
+# $+*  #
+#  *   #
+########
+Title: erim131-second collection
+Author: Erim SEVER from TURKEY
+
+;erim132.xsb
+ #####
+##   ###
+# .$.  #
+# $ $ @#
+# .$.###
+######
+Title: erim132-second collection
+Author: Erim SEVER from TURKEY
+
+;erim133.xsb
+ #####
+##   ###
+#  * $ #
+# *$. @#
+#  .####
+#####
+Title: erim133-second collection
+Author: Erim SEVER from TURKEY
+
+;erim134.xsb
+  ####
+###  #
+# $ $####
+# . .   #
+# $.$. @#
+#########
+Title: erim134-second collection
+Author: Erim SEVER from TURKEY
+
+;erim135.xsb
+ ######
+##    #
+#  *  #
+# $.$##
+# .$. #
+# $.$ #
+# .$.@#
+#######
+Title: erim135-second collection
+Author: Erim SEVER from TURKEY
+
+;erim136.xsb
+ #####
+##   #
+#  * ##
+# $.$ #
+# .$. #
+# $.$ #
+#@.$.##
+######
+Title: erim136-second collection
+Author: Erim SEVER from TURKEY
+
+;erim137.xsb
+#####
+#   #
+#   #
+#  ##
+#..####
+#**   #
+#..$$ #
+#$ #  #
+# $####
+#@ #
+####
+Title: erim137-second collection
+Author: Erim SEVER from TURKEY
+
+;erim138.xsb
+   #####
+   #   #
+   # $ #
+#####$ ####
+#   ...#  #
+# $$...$$ #
+#  #.@.   #
+#### $#####
+   # $ #
+   #   #
+   #####
+Title: erim138-second collection
+Author: Erim SEVER from TURKEY
+
+;erim139.xsb
+   #####
+   #   #
+   # $ #
+####*$ ####
+#   ...*  #
+# $$.*.$$ #
+#  *...   #
+#### $*####
+   # $ #
+   #  @#
+   #####
+Title: erim139-second collection
+Author: Erim SEVER from TURKEY
+
+;erim140.xsb
+##########
+#.     ..#
+#*##  .. #
+# ##### ##
+#    @# #
+# #$$$# #
+#     $ #
+##  # $ #
+ ####   #
+    #####
+Title: erim140-second collection
+Author: Erim SEVER from TURKEY
+
+;erim141.xsb
+#######
+# .   #
+# #$  #
+#  $ ##
+###$ ##
+  # ..#
+  #  @#
+  #####
+Title: erim141-second collection
+Author: Erim SEVER from TURKEY
+
+;erim142.xsb
+#############
+#  .  .  ##@#
+# .* * * ##$##
+## ##.# ###..#
+ # # $#   $ .#
+ # $  #$$ #  #
+ #      $ ####
+ #   ######
+ #####
+Title: erim142-second collection
+Author: Erim SEVER from TURKEY
+
+;erim143.xsb
+ ######
+##    #
+# $$$ #
+#   $ ##
+#   *. #
+####..+#
+   #####
+Title: erim143-second collection
+Author: Erim SEVER from TURKEY
+
+;erim144.xsb
+####   #####
+#  #####   #
+#          #
+#  # ## # ##
+## #    # #
+ #     ## #
+## ##. ## #
+#      ##$#
+#   ##   @#
+###########
+Title: erim144-second collection
+Author: Erim SEVER from TURKEY
+
+;erim145.xsb
+   ####
+   #  ###
+####    #
+#    ** #
+# *##   #
+## .#* ##
+ #  $ @#
+ #  ####
+ ####
+Title: erim145-second collection
+Author: Erim SEVER from TURKEY
+
+;erim146.xsb
+ ####
+ #  ###
+##    #
+#  ** #
+#  *@##
+##  ##
+ ####
+Title: erim146-StartWithEndPosition-second collection
+Author: Erim SEVER from TURKEY
+
+;erim147.xsb
+    #####
+    #   #
+   ##$  ##
+####  $$ #
+#   *+.. #
+# $*..####
+##  $##
+ #   #
+ #####
+Title: erim147-second collection
+Author: Erim SEVER from TURKEY
+
+;erim148.xsb
+    #####
+    #   #
+   ##$  ##
+   #  $$ #
+####$... #
+# ...+####
+# $$  #
+##  $##
+ #   #
+ #####
+Title: erim148-second collection
+Author: Erim SEVER from TURKEY
+
+;erim149.xsb
+ ######
+ #   @##
+ #$$ $ #
+## ##  #
+# .*.*.#
+#      #
+####  ##
+   ####
+Title: erim149-second collection
+Author: Erim SEVER from TURKEY
+
+;erim150.xsb
+ ######
+ #  ..#
+##$ # #
+#   $ #
+#  @###
+#####
+Title: erim150-second collection
+Author: Erim SEVER from TURKEY
+
+;erim151.xsb
+   ####
+####  #
+#  #  #
+#  . .#
+#$$$$$#
+#. . .#
+#  # @#
+#  ####
+####
+Title: erim151-second collection
+Author: Erim SEVER from TURKEY
+
+;erim152.xsb
+######
+#  ..#
+# $ .###
+### $$ #
+  #   @#
+  ######
+Title: erim152-second collection
+Author: Erim SEVER from TURKEY
+
+;erim153.xsb
+######
+#....#
+# $  ###
+### $$ #
+  #  $ #
+  #   @#
+  ######
+Title: erim153-second collection
+Author: Erim SEVER from TURKEY
+
+;erim154.xsb
+ ####
+ #  ####
+ # ... #
+##$.#  #
+#  ##  #
+# $$ $##
+#    @#
+#######
+Title: erim154-second collection
+Author: Erim SEVER from TURKEY
+
+;erim155.xsb
+    ######
+    #    #
+    # $ $##
+  ###$    #
+###  **.*$####
+# $$ .....$  #
+#    ..*** $ #
+# $ ***..    #
+#  $..... $$ #
+####$*.**  ###
+   #    $###
+   ##$ $ #
+    #   @#
+    ######
+Title: erim155-second collection
+Author: Erim SEVER from TURKEY
+
+;erim156.xsb
+    ######
+    #    #
+    # $ $##
+  ###$    #
+###  **.*$####
+# $$ .....$  #
+#   *..*** $ #
+# $ ***..*   #
+#  $..... $$ #
+####$*.**  ###
+   #    $###
+   ##$ $ #
+    #   @# 
+    ######
+Title: erim156-second collection
+Author: Erim SEVER from TURKEY
+
+;erim157.xsb
+  ########
+  #  ## .#
+###$ ##$.###
+#    $     #
+# $  @$  $ #
+#.$##.$##$.#
+#. ##..## .#
+############
+Title: erim157-second collection
+Author: Erim SEVER from TURKEY
+
+;erim158.xsb
+ ####
+ #  #
+## .######
+# $  $   ##
+# $ $@$$. #
+#   ## .. #
+#.. ##  ###
+#########
+Title: erim158-second collection
+Author: Erim SEVER from TURKEY
+
+;erim159.xsb
+ ######
+## @  ##
+# $##  #
+#  ##$ #
+#.$#. .#
+#. . ###
+#.$# ###
+#  $ $ #
+#. $   #
+########
+Title: erim159-second collection
+Author: Erim SEVER from TURKEY
+
+;erim160.xsb
+     #####
+     #.. #
+   ###.. #
+   # .  ####
+#### $#    #
+#..  .# $$ #
+#.#$ ## $  #
+#   $##  ###
+#  #  ##$#
+####$ $  #
+   #   @##
+   ######
+Title: erim160-second collection
+Author: Erim SEVER from TURKEY
+
+;erim161.xsb
+  ##############
+  #  .....  $  #
+  # $#####  $  #
+  #. ### #..# ###
+ ## #  # #### $ #
+ #@ $ $###...   #
+ ## #   .# $#$###
+### #### #  # #
+#    $    # $ #
+# #.##### #   #
+# ###   #  .# #
+# ####### ### #
+#  ##  $      #
+##    $$$###  #
+ ####    # ####
+    ######
+Title: erim161-second collection
+Author: Erim SEVER from TURKEY
+
+;erim162.xsb
+     ######
+  ####....#
+  #...  @.#
+###$ ##  .#
+#    ###$##
+# #  # #  #####
+#.# ####$  $  #
+#.#  $ #  ### #
+# # $  # $### #
+# # $ ##  $  .#
+# $ $ #.  .*. #
+#  ## #  ##$###
+##### # ##   #
+   #. #$ #.$ #
+   #*    $ $ #
+  ## ##   $  #
+  # $  # #####
+  #    . #
+  ########
+Title: erim162-second collection
+Author: Erim SEVER from TURKEY
+
+;erim163.xsb
+   ###
+  ##.##
+ ## $ ##
+## @ $ ##
+# $.#  .#
+#.  *.$ #
+## $   ##
+ ## $ ##
+  ##.##
+   ###
+Title: erim163-second collection
+Author: Erim SEVER from TURKEY
+
+;erim164.xsb
+   ####
+   #  #
+####. ###
+#  $ $$@#
+# . $ . #
+### . ###
+  ##$ #
+   # .#
+   ####
+Title: erim164-second collection
+Author: Erim SEVER from TURKEY
+
+;erim165.xsb
+     ##########
+     #    #   ####
+     #   *   *#  #
+     ## **##     ##
+  #####  * ###**  #
+  #     #* #      #
+### * * *@* * * ###
+#      # *#     #
+#  **### *  #####
+##     ##** ##
+ #  #*   *   #
+ ####   #    #
+    ##########
+Title: erim165-StartWithEndPosition-second collection
+Author: Erim SEVER from TURKEY
+
+;erim166.xsb
+####
+#  ####
+#  #  #
+#  *  #
+##**  #
+#@*   #
+#######
+Title: erim166-StartWithEndPosition-second collection
+Author: Erim SEVER from TURKEY
+
+;erim167.xsb
+      #######
+      # .   #
+    ### #   #
+    #   ..###
+    #   #.##
+    ## ##..#
+  ####. #. #
+###   $$$. #
+# $ $$   #.#
+# $    $$$@#
+#   ##   ###
+##########
+Title: erim167-second collection
+Author: Erim SEVER from TURKEY
+
+;erim168.xsb
+  ####
+###  ####
+#    #  #
+#  * *  #
+###***  #
+  #@*   #
+  #######
+Title: erim168-StartWithEndPosition-second collection
+Author: Erim SEVER from TURKEY
+
+;erim169.xsb
+    ####
+#####  ####
+#  *   #  #
+#    * *  #
+## *#***  #
+ #  #@*   #
+ ##########
+Title: erim169-StartWithEndPosition-second collection
+Author: Erim SEVER from TURKEY
+
+;erim170.xsb
+   ####
+   #  #
+   #  ##
+#### * #
+#    * #
+# *    #
+# * *###
+###*  #
+ #@*  #
+ ######
+Title: erim170-StartWithEndPosition-second collection
+Author: Erim SEVER from TURKEY
+
+;erim171.xsb
+        ####
+  #######  #
+  #  #     #
+  # * *** *#
+###  **@#  #
+#   * *#  *#
+# #    * * #
+#  * * *   #
+####*## #  #
+  # * *   ##
+  #      ##
+  ########
+Title: erim171-StartWithEndPosition-second collection
+Author: Erim SEVER from TURKEY
+
+;erim172.xsb
+        ####
+    #####  #
+    #      #
+    # ### *##
+ #### # * * ##
+ #    #  * *@#
+ # #  # # * ##
+ # ##      ##
+## ### #####
+# **  * #
+#       #
+#  ######
+####
+Title: erim172-StartWithEndPosition-second collection
+Author: Erim SEVER from TURKEY
+
+;erim173.xsb
+    #####
+    #   #
+  ### $ ##
+ ##  $ $ #
+ #  # $  #
+## ### ###
+# . #   #
+#.+.  $ #
+# . #####
+#####
+Title: erim173-second collection
+Author: Erim SEVER from TURKEY
+
+;erim174.xsb
+  ######
+  #    #
+###  $ ###
+#  .***  #
+# $* .*  #
+#  *.@*$ #
+#  ***.  #
+### $  ###
+  #    #
+  ######
+Title: erim174-second collection
+Author: Erim SEVER from TURKEY
+
+;erim175.xsb
+  ######
+  #    #
+###  * ###
+#  $**$  #
+# $*..*  #
+#  *.+** #
+#  $**$  #
+### *. ###
+  #    #
+  ######
+Title: erim175-second collection
+Author: Erim SEVER from TURKEY
+
+;erim176.xsb
+ #############
+##@.   .   . ##
+#*$*$*$*$*$*$ #
+#.   .   .    #
+###*###$###$#.#
+#.   .   .    #
+#*$*$*$.$*$*$ #
+## .   .   .  #
+ ##############
+Title: erim176-second collection
+Author: Erim SEVER from TURKEY
+
+;erim177.xsb
+##################
+#..  #  *  #     #
+#.*. #  $  #  $  #
+#.#  #$ #$ #$ #  #
+#.#  $  #  $  # ##
+#.#  *  #  *  #  #
+#*#############  #
+#.#  *  #  *  #  #
+#.#  $  #  $  # ##
+#.#  #$ #$ #$ #  #
+#.*. #  $  #  $  #
+#..@ #  *  #     #
+##################
+Title: erim177-second collection
+Author: Erim SEVER from TURKEY
+
+;erim178.xsb
+#################
+#   #   #   #   #
+# .*# *   .*# * #
+# * # * # * #** #
+# *   .*# *     #
+#   #   #   ## ##
+#############   #
+#   #   #   # * #
+# *   **# *  ** #
+# $*# *   **#   #
+#   #   #   ## ##
+## ### ### ##   #
+#   #   #   # * #
+# *   **# *  *$ #
+# $*# *   **#  @#
+#   #   #   #####
+#############
+Title: erim178-second collection
+Author: Erim SEVER from TURKEY
+
+;erim179.xsb
+#####      ####
+#   ########  #
+#             #
+## $*******$  #
+ # *       * ##
+ # * ***** * #
+ # * *. .* * #
+ # * * @ * * #
+ # * *. .* * #
+ # * ***** * #
+## *       * #
+#  $*******$ ##
+#             #
+#  ########   #
+####      #####
+Title: erim179-second collection
+Author: Erim SEVER from TURKEY
+
+;erim180.xsb
+##########
+#   #    #
+# $   ## #
+# $# @## ###
+# $ $## . .#
+###$    ..##
+  #   # .##
+  ########
+Title: erim180-SameErim_hex1.hsb-third collection
+Author: Erim SEVER from TURKEY
+
+;erim181.xsb
+ ####      ####
+ #  ########  #
+ #            #
+ # $****###$  #
+ # *       * ##
+ # # ***** * #
+ # * *. .# * #
+ # # * @ * * #
+ # * *. .# * #
+ # # ***** * #
+## *       * #
+#  $#******$ #
+#            #
+###########  #
+          ####
+Title: erim181-MoreDifficultErim179-third collection
+Author: Erim SEVER from TURKEY
+
+;erim182new.xsb
+     #####
+    ##   #
+    # $ $##
+  ###$    #
+###  **.*$####
+# $$ .....$  #
+#   *..##* $ #
+# $ *##..*   #
+#  $..... $$ #
+####$*.**  ###
+   #    $###
+   ##$ $ #
+    #  @##
+    #####
+Title: erim182new-RebuiltWithPhilippeLamat'sSolutionOfErim156-third collection
+Author: Erim SEVER from TURKEY
+
+;erim183.xsb
+ ####
+ #  ####
+ # ... #
+##$.*  #
+#  *# ##
+# $$ $#
+#    @#
+#######
+Title: erim183-third collection
+Author: Erim SEVER from TURKEY
+
+;erim184.xsb
+ #########
+ #  . .  #
+ # $ $ $ #
+##..#$#..##
+#.$$. .$$.#
+##.$$$$$.##
+ ##.$+$.##
+  #######
+Title: erim184-third collection
+Author: Erim SEVER from TURKEY
+
+;erim185.xsb
+  ######
+  #    #
+###  $ ###
+#  $*#*  #
+# ##..*  #
+#  #.+## #
+## ##*$  #
+ #  $  ###
+ ##    #
+  ######
+Title: erim185-third collection
+Author: Erim SEVER from TURKEY
+
+;erim_nr01.xsb
+      ####
+    ###..#
+    #  ..#
+    # $..#
+######  ##
+#@     ###
+## $ $ $ #
+ # $$# # #
+ #   #   #
+ #########
+Title: erim_nr01-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 99 1 99 99 2 99
+goalorder 99 99 1 2 99 99
+Comment-End:
+
+;erim_nr02.xsb
+######
+#....####
+#@ $$$  #
+##  $   #
+ #### # #
+    #   #
+    #####
+Title: erim_nr02-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 1 2 3 4
+goalorder 1 2 3 4
+Comment-End:
+
+;erim_nr03.xsb
+          #####
+          #...#
+          #.. #
+######### #...#
+#.      # #  ##
+#.  $ $ # #  #
+## $##### #  #
+ #  ####  ## ##
+ # $$  #####  #
+ #            #
+ # ########$  #
+ # ###### # $ #
+ #   $  # #$  #
+ #   $  # #   #
+ ##### @# #####
+     ####
+Title: erim_nr03-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 1 2 99 99 99 99 99 3 99 4
+goalorder 3 4 99 99 99 99 99 99 1 2
+Comment-End:
+
+;erim_nr04.xsb
+######
+#  @ #
+# $  #
+## #$#
+# $$ #
+#  $.#
+#....#
+######
+Title: erim_nr04-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 2 4 5 3 1
+goalorder 5 1 2 3 4
+Comment-End:
+
+;erim_nr05.xsb
+######
+#  @ #
+# $  #
+## #$#
+# $$ #
+#  $.#
+#....#
+######
+Title: erim_nr05-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 2 5 4 3 1
+goalorder 5 1 2 3 4
+Comment-End:
+
+;erim_nr06.xsb
+######
+#..@.#
+#  $ #
+##$###
+#  $ #
+#    #
+#    #
+######
+Title: erim_nr06-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 3 2 1
+goalorder 1 2 3
+Comment-End:
+
+;erim_nr07.xsb
+  #####
+###   ###
+# $ # *.#
+# $ # *.#
+# $ # *.#
+# $ @ *.#
+#   #   #
+#########
+Title: erim_nr07-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 2 1 3 4 5 6 8 7
+goalorder 1 2 3 4 5 6 7 8
+Comment-End:
+
+;erim_nr08.xsb
+#########
+#   #.  #
+# $ $*..#
+##$ @ $##
+#..*$ $ #
+#  .#   #
+#########
+Title: erim_nr08-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 6 4 1 2 7 8 5 3
+goalorder 1 2 3 4 5 6 7 8
+Comment-End:
+
+;erim_nr09.xsb
+ #######
+ #     #
+## .$* #
+#  *@* #
+#  *$. #
+##     #
+ #######
+Title: erim_nr09-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 2 6 5 1 3 4
+goalorder 1 4 2 5 3 6
+Comment-End:
+
+;erim_nr10.xsb
+ #####
+##@  #
+# ** #
+# *  #
+# ** #
+#    #
+# ** #
+# *  #
+#    #
+######
+Title: erim_nr10-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 99 99 99 99 99 99 99 1
+goalorder 99 1
+Comment-End:
+
+;erim_nr11.xsb
+ #####
+##@  #
+# ** #
+# *  #
+# ** #
+#    #
+# ** #
+# *  #
+#   ##
+#####
+Title: erim_nr11-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 99 99 99 99 99 99 99 1
+goalorder 99 1
+Comment-End:
+
+;erim_nr12.xsb
+ #######
+##@    #
+# ** * #
+# *  $ #
+# ** *##
+# .  *#
+# *  *#
+# ** *#
+#   ###
+#####
+Title: erim_nr12-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 99 99 99 99 99 99 99 99 99 99 99 1
+goalorder 99 99 1
+Comment-End:
+
+;erim_nr13.xsb
+#######
+#     ##
+# **$$ #
+# *+.  #
+# *** ##
+#     #
+#######
+Title: erim_nr13-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 99 99 99 99 99 99 1
+goalorder 99 99 1
+Comment-End:
+
+;erim_nr14.xsb
+######
+#    #
+# $ .#
+# .$ #
+#.$###
+##@#
+ ###
+
+Title: erim_nr14-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 1 2 3
+goalorder 1 2 3
+Comment-End:
+
+;erim_nr15.xsb
+          ###
+#####     #.#
+#   #######.##
+#         $@.#
+## ########$##
+ # #      # #
+ # #      # #
+ # #      # #
+ # #      # #
+## #      # ###
+# $########   #
+#             #
+###########   #
+          #####
+Title: erim_nr15-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 3 2 1
+goalorder 1 2 3
+Comment-End:
+
+;erim_nr16.xsb
+####
+#  #############
+#        $@....#
+#  #######$#####
+## #.. ..# #
+ # #*$ $ $ #
+ # $  $  # #
+## ###   # ##
+# $#######  #
+#           #
+##########  #
+         ####
+Title: erim_nr16-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 99 99 99 99 99 99 1
+goalorder 99 1
+Comment-End:
+
+;erim_nr17.xsb
+#######
+#@    #
+# *** #
+# *   #
+# ** ##
+#    #
+######
+Title: erim_nr17-first collection
+Author: Erim SEVER
+Comment:
+boxorder 6 5 4 3 2 1
+goalorder 1 4 3 5 6 2
+Comment-End:
+
+;erim_nr18.xsb
+ ####
+##  ###
+#     #
+# *** #
+#     #
+###@ ##
+  ####
+Title: erim_nr18-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 3 2 1
+goalorder 1 2 3
+Comment-End:
+
+;erim_nr19.xsb
+      ####
+    ###..#
+    #  ..#
+    #  $ #
+###### ###
+#@     ###
+## # $ $ #
+ # $ # # #
+ #   #   #
+ #########
+Title: erim_nr19-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 1 2 4 3
+goalorder 1 2 3 4
+Comment-End:
+
+;erim_nr20.xsb
+      ####
+ ######. #
+##  @#...#
+#  $ #.*.#
+# $####.*#
+#     #  #
+# $#$##$ #
+#  $ ##  #
+###     $#
+  ####   #
+     #  ##
+      ###
+Title: erim_nr20-first collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 99 99 99 99 99 99 99 1
+goalorder 99 1
+Comment-End:
+
+;erim_nr_21.xsb
+    #####
+    #   #
+    #   #
+    #  ##
+######  #####
+#  #  *$#   #
+#    *+*    #
+#   # *  #  #
+#####  ######
+    ##  #
+    #   #
+    #   #
+    #####
+Title: erim_nr21-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 4 5 1 3 2
+goalorder 2 3 5 1 4
+Comment-End:
+
+;erim_nr_22.xsb
+    #####
+    #   #
+    #   #
+    #  ##
+######  #####
+#  #  *$#   #
+#    *+*    #
+#   #**  #  #
+#####  ######
+    ##  #
+    #   #
+    #   #
+    #####
+Title: erim_nr22-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 4 5 1 3 6 2
+goalorder 2 3 5 1 6 4
+Comment-End:
+
+;erim_nr_23.xsb
+#######
+#     #
+# **  #
+# *.$ #
+#  # @#
+#######
+Title: erim_nr23-ForKidsWithNumbers-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 1 99 99 99
+goalorder 99 99 99 1
+Comment-End:
+
+;erim_nr_24.xsb
+######
+#    #
+#@   #
+## # #
+ # # #
+ # # ##
+ # #  #
+ #**  #
+ #   ##
+ #####
+Title: erim_nr24-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 1 2
+goalorder 2 1
+Comment-End:
+
+;erim_nr_25.xsb
+######
+#    #
+#@   #
+## . #
+ # # #
+ # $ ##
+ # #  #
+ #**  #
+ #   ##
+ #####
+Title: erim_nr25-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 3 1 2
+goalorder 2 3 1
+Comment-End:
+
+;erim_nr_26.xsb
+###
+#@#######
+#...    #
+#...$$$ #
+#..   $ #
+#  $$$$ #
+###     #
+  #######
+Title: erim_nr26-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 5 2 4 8 6 7 3 1
+goalorder 1 2 3 4 5 6 7 8
+Comment-End:
+
+;erim_nr_27.xsb
+ ####
+ #  ####
+ #     #
+ #  #  #
+###$# ##
+#   $$#
+#   $ ##
+#####  #
+ ####  #
+ #....@#
+ #######
+Title: erim_nr27-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 99 99 1 99
+goalorder 99 99 99 1
+
+Comment-End:
+
+;erim_nr_28.xsb
+######
+#    #
+# ** #
+#  * #
+### @#
+  ####
+Title: erim_nr28-ForKidsWithNumbers-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 2 1 3
+goalorder 3 2 1
+Comment-End:
+
+;erim_nr_29.xsb
+######
+#    #
+# ## ##
+# .*  #
+# #$  #
+#  @###
+#####
+Title: erim_nr29-ForKidsWithNumbers-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 2 1
+goalorder 1 2
+Comment-End:
+
+;erim_nr_30.xsb
+######
+#   .#
+#   *#
+##$$.#
+ #  @#
+ #####
+Title: erim_nr30-ForKidsWithNumbers-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 3 2 1
+goalorder 1 2 3
+Comment-End:
+
+;erim_nr_31.xsb
+#####
+#   ###
+# .   #
+##$.$ #
+ #  ###
+ # @#
+ ####
+Title: erim_nr31-ForKidsWithNumbers-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 2 1
+goalorder 1 2
+Comment-End:
+
+;erim_nr_32.xsb
+######
+# .$ #
+# *  #
+# *  #
+# @###
+####
+Title: erim_nr32-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 1 3 2
+goalorder 1 2 3
+Comment-End:
+
+;erim_nr_33.xsb
+####
+#  ####
+# $.*.#
+#  $.* #
+##  $  #
+ ##  @##
+  #####
+Title: erim_nr33-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 1 2 4 5 3
+goalorder 1 2 3 4 5
+Comment-End:
+
+;erim_nr_34.xsb
+#######
+#     #
+#  $$ #
+# $$ @#
+#  #.##
+####.#
+   #.#
+   #.#
+   ###
+Title: erim_nr34-ForKidsWithNumbers-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 4 3 2 1
+goalorder 4 3 2 1
+Comment-End:
+
+;erim_nr35.xsb
+  ####
+###  #
+#    #
+#  # ###
+## #   #
+ # #  .#
+ # .  ##
+ # ##  #
+ #$$ # #
+ #    @#
+ #######
+Title: erim_nr35-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 1 2
+goalorder 2 1
+Comment-End:
+
+;erim_nr36.xsb
+####### #######
+#     ###     #
+# $$ $ # . .. #
+### $ $@. . ###
+  #   ###   #
+  #   # #   #
+  ##### #####
+Title: erim_nr36-ForKidsWithNumbers-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 1 2 3 4 5
+goalorder 3 2 1 5 4
+Comment-End:
+
+;erim_nr37.xsb
+##########
+#        #
+#  *  *  #
+# ****** #
+#  *  *@##
+#      ##
+########
+Title: erim_nr37-second collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 99 99 1 2 3 4 5
+goalorder 99 99 5 4 3 2 1
+Comment-End:
+
+;erim_nr38.xsb
+##########
+#   #    #
+# $   ## #
+# $# @## ###
+# $ $## . .#
+###$    ..##
+  #   # .##
+  ########
+Title: erim_nr38-SameErim_hex_nr1.hsb-third collection
+Author: Erim SEVER from TURKEY
+Comment:
+boxorder 1 99 99 99 2
+goalorder 99 99 1 2 99
+Comment-End:
+
+;erim007a_sharpen.xsb
+########
+#@     #
+# * *  #
+##$#**.#
+# *   ##
+#     #
+#######
+Title: erim007a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim017a_sharpen.xsb
+ #######
+ #     #
+## .$# #
+#  *@# #
+#  *$. #
+###   ##
+  #####
+Title: erim017a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim018a_sharpen.xsb
+ #######
+ #     #
+## .## #
+#  $@$ #
+#  **.##
+##    #
+ ######
+Title: erim018a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim019a_sharpen.xsb
+ #######
+ #     #
+## .#$ #
+#  *@* #
+#  $#.##
+##    #
+ ######
+Title: erim019a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim020newa_sharpen.xsb
+#######
+#     ##
+# .*$$ #
+# # #@ #
+# .*  ##
+#     #
+#######
+Title: erim020newa-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim025a_sharpen.xsb
+   ###
+  ##.##
+###...###
+#       #
+# $$ $$ #
+#  # #  #
+####$####
+#### # @#
+# $ $ $ #
+#   *   #
+###...###
+  ##.##
+   ###
+Title: erim025a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim058a_sharpen.xsb
+ #####     #####
+ #   #     #   #
+ # $ ####### $ #
+## $$ $ ##.#*..#
+#   $  $   $.  #
+# $   ### $ .#*#
+###@ ## ### ...#
+  ####    #..###
+          ####
+Title: erim058a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim077a_sharpen.xsb
+     ######
+     #    #
+     # $ $#####
+  #### $ $    ####
+  #. # ##*$$$@   #
+###.$# #.$ $ ##$ #
+# $        #.# *.#
+#.  ####  $     ##
+#.  .# #####$. $#
+#.. .#     #... #
+######     ######
+Title: erim077a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim078a_sharpen.xsb
+       ######
+  ######    #
+ ##   #  #$ #
+ #  $   ##  #
+##$$.# @ $ ##
+# *..# * * ##
+#   ## ## *.#
+###$   .#####
+  #  * .#
+  #######
+Title: erim078a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim081a_sharpen.xsb
+   ####
+####  ###
+#       #
+#  #**  #
+## *   ##
+ # ###  #
+ # *@*  #
+ #  *  ##
+ #######
+Title: erim081a-StartWithEndPosition-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim100a_sharpen.xsb
+       ######
+  ######    #
+ ##   #  #$ #
+ #  $   ##  ##
+##$$.# @ * * ##
+# *..# * * #  #
+#   ## ## * * #
+###$   .##    #
+  #  * .#######
+  #######
+Title: erim100a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim124a_sharpen.xsb
+   #####
+ ###   ###
+##  $.$#.#
+#  $**.$.#
+# $#.$.  #
+#  $. ####
+##  @##
+ #####
+Title: erim124a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim125a_sharpen.xsb
+ ####
+ #  ##
+ # . ###
+## *   ##
+#  * *  #
+# ***## #
+#  * *  #
+###  * ##
+  ## $ #
+   #  @#
+   #####
+Title: erim125a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim140a_sharpen.xsb
+##########
+#.     ..#
+#*##  .. #
+# ##### ##
+#    @# #
+# #$$$# #
+#     $ #
+##### $ #
+    #   #
+    #####
+Title: erim140a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim142a_sharpen.xsb
+############
+# .  .  ##@#
+#.* * * ##$##
+# ##.# ###..#
+# ##$#   $ .#
+# $  #$$ #  #
+#      $ ####
+#   ######
+#####
+Title: erim142a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim143a_sharpen.xsb
+ ######
+ #    #
+##$$$ #
+#   $ #
+#   *.##
+####..+#
+   #####
+Title: erim143a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim146a_sharpen.xsb
+ ####
+ #  #
+##  #
+#  *##
+#  *@#
+######
+Title: erim146a-StartWithEndPosition-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim147a_sharpen.xsb
+    #####
+    #   #
+   ##$  #
+####  $$#
+#   *+..#
+# $*..###
+##  $##
+ #   #
+ #####
+Title: erim147a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim148a_sharpen.xsb
+    #####
+    #   #
+   ##$  #
+   #  $$#
+####$...#
+# ...+###
+# $$  #
+##  $##
+ #   #
+ #####
+Title: erim148a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim156a_sharpen.xsb
+     #####
+    ##   #
+    # $ $##
+  ###$    #
+###  **.#$####
+# $$ .....$  #
+#   *..### $ #
+# $ ###..#   #
+#  $..... $$ #
+####$#.**  ###
+   #    $###
+   ##$ $ #
+    #   @#
+    ######
+Title: erim156a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim163a_sharpen.xsb
+   ###
+   #.##
+ ###$ #
+ # @ $###
+##$.#  .#
+#.  *.$##
+###$   #
+  # $### 
+  ##.#
+   ###
+Title: erim163a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim173a_sharpen.xsb
+    #####
+    #   #
+  ### $ ##
+ ##  $ $ #
+ #  ##$  #
+ # ### ###
+##. #   #
+#.+.  $ #
+##. #####
+ ####
+Title: erim173a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim174a_sharpen.xsb
+  ######
+  #    #
+###  $ ##
+#  .*#* ##
+# $# .*  #
+#  *.@#$ #
+## *#*.  #
+ ## $  ###
+  #    #
+  ######
+Title: erim174a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim175a_sharpen.xsb
+  ######
+  #    #
+###  # ###
+#  $*#$  #
+# $#..*  #
+#  *.+## #
+#  $#*$  #
+### #. ###
+  #    #
+  ######
+Title: erim175a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim176a_sharpen.xsb
+ #############
+ #@.   .   . ##
+##$*$*$*$*$*$ #
+#.   .   .    #
+#######$###$#.#
+#.   .   .    #
+##$#$#$.$#$#$##
+ # .   .   . #
+ #############
+Title: erim176a-sharpen collection
+Author: Erim SEVER from TURKEY & Sven EGEVAD <sven.egevad@telia.com>
+
+;erim178a_sharpen.xsb
+    #####   #####
+ ####   #####   #
+ #.## *   .## * #
+##*## * # * #** #
+# *   .*# *     #
+#   #   #   ## ##
+#############   #
+#   #  ##   # * #
+# *   *## *  ** #
+# $## *   **#   #
+#  ##   #   ## ##
+## ### ### ##   #
+#   #   #   # * #
+# *   **# *  *$ #
+# $## *   *##  @#
+#  ##   #  ######
+############
+Title: erim178a-sharpen collection
+Author: Erim SEVER from TURKEY, York SHEN from TAIWAN & SokoAnalyser Program Author Victor Kindermans (inspired by Francois Marques' on line html solution analyser.) from my solution
+
+;erim178b_sharpen.xsb
+    #############
+ ####   #   #   #
+ #.## *   .*# # #
+##*## * # # #** #
+# *   **# *     #
+#   #   #   ## ##
+##*##########   #
+#   #   #   # * #
+# * $ **# *  *$ #
+# $## *   **#   #
+#  ##   #   ## ##
+##.###.###.##   #
+#   #  ##   # * #
+# *   *## * $** #
+# *## * $ **#  @#
+#  ##   #   #####
+#############
+Title: erim178b-sharpen collection
+Author: Erim SEVER from TURKEY, York SHEN from TAIWAN & SokoAnalyser Program Author Victor Kindermans (inspired by Francois Marques' on line html solution analyser.) from Marek LETRAB from POLAND <bartelk@o2.pl>'s solution
+
+;erim179a_sharpen.xsb
+#####
+#   ###########
+#             #
+## $#####**$  #
+ # *       # ##
+ # * ***** # #
+ # # *. .* # #
+ # # * @ * # #
+ # # *. .* # #
+ # # ***** # #
+ # #       * #
+ # $*######$ #
+ #           #
+ #############
+Title: erim179a-sharpen collection
+Author: Erim SEVER from TURKEY & Marek LETRAB from POLAND <bartelk@o2.pl>
+
+;erim179b_sharpen.xsb
+#####
+#   ###########
+#             #
+## $#####**$  #
+ # *       # ##
+ # # ***** # #
+ # # *. .* # #
+ # # * @ * # #
+ # # *. .* # #
+ # # ***** # #
+ # #       * #
+ # $*######$ #
+ #           #
+ #############
+Title: erim179b_sharpen collection
+Author: Erim SEVER from TURKEY & Marek LETRAB from POLAND <bartelk@o2.pl>
+
+;erim181a_sharpen.xsb
+ ####      ####
+ #  ########  #
+ #            #
+ # $**#####$  #
+ # *       * ##
+ # # ***** * #
+ # # *. .# * #
+ # # * @ * * #
+ # # *. .# * #
+ # # ***** * #
+## *       * #
+#  $*######$ #
+#            #
+###########  #
+          ####
+Title: erim181a-sharpen collection
+Author: Erim SEVER from TURKEY & Marek LETRAB from POLAND <bartelk@o2.pl>
+
+;erim181b_sharpen.xsb
+ ####
+ #  ###########
+ #            #
+ # $**#####$  #
+ # *       * ##
+ # # ***** * #
+ # # *. .# * #
+ # # * @ * * #
+ # # *. .# * #
+ # # ***** * #
+## *       * #
+#  $*######$ #
+#            #
+###########  #
+          ####
+Title: erim181b-sharpen collection
+Author: Erim SEVER from TURKEY & Marek LETRAB from POLAND <bartelk@o2.pl> & SokoAnalyser Program Author Victor Kindermans (inspired by Francois Marques' on line html solution analyser.)
+
+;erim181c_sharpen.xsb
+ ####
+ #  ###########
+ #            #
+ # $#######$  #
+ # *       * ##
+ # # ***** * #
+ # # *. .# * #
+ # # * @ * * #
+ # # *. .# * #
+ # # ***** * #
+## #       * #
+#  $*######$ #
+#            #
+###########  #
+          ####
+Title: erim181c_sharpen collection
+Author: Erim SEVER from TURKEY, Marek LETRAB from POLAND <bartelk@o2.pl>
+
+;erim181d_sharpen.xsb
+ ####
+ #  ###########
+ #            #
+ # $########  #
+ # *       * ##
+ # # ***** * #
+ # # *. .# * #
+ # # * $ * * #
+ # # *.@.# * #
+ # # ***** * #
+## #       * #
+#  $*######$ #
+#            #
+###########  #
+          ####
+Title: erim181d_sharpen collection
+Author: Erim SEVER from TURKEY, Marek LETRAB from POLAND <bartelk@o2.pl>, York SHEN from TAIWAN
+
+;erim181e_sharpen.xsb
+ ####
+ #  ###########
+ #            #
+ # $#######*  #
+ # *       * ##
+ # # ***** * #
+ # # *.$.# * #
+ # # * + * * #
+ # # *.$.# * #
+ # # ***** * #
+## #       * #
+#  $*######$ #
+#            #
+###########  #
+          ####
+Title: erim181e_sharpen collection
+Author: Erim SEVER from TURKEY, Marek LETRAB from POLAND <bartelk@o2.pl>, York SHEN from TAIWAN <linashen@ms28.hinet.net>
+
+;erim181f_sharpen.xsb
+ ####
+ #  ###########
+ #            #
+ # $########  #
+ # *       * ##
+ # # ***** * #
+ # # *. .# * #
+ # # *$+$* * #
+ # # *. .# * #
+ # # ***** * #
+## #       * #
+#  $*######$ #
+#            #
+###########  #
+          ####
+Title: erim181f_sharpen collection
+Author: Erim SEVER from TURKEY, Marek LETRAB from POLAND <bartelk@o2.pl>, York SHEN from TAIWAN <linashen@ms28.hinet.net>
+
+;erim181g_sharpen.xsb
+ ####
+ #  ###########
+ #            #
+ # $#######*  #
+ # *       * ##
+ # # ***** * #
+ # # * * # * #
+ # # *.+.* * #
+ # # * * # * #
+ # # ***** * #
+## #       * #
+#  $*######$ #
+#            #
+###########  #
+          ####
+Title: erim181g_sharpen collection
+Author: Erim SEVER from TURKEY, Marek LETRAB from POLAND <bartelk@o2.pl>, York SHEN from TAIWAN <linashen@ms28.hinet.net>
+
+;erim181h_sharpen.xsb
+ ####         
+ #  ##########
+ #           #
+ # $######## #
+ # *       * #
+ # # ***** * #
+ # # *.$.# * #
+ # # * + * * #
+ # # *.$.# * #
+ # # ***** * #
+## #       * #
+#  $*######$ #
+#            #
+###########  #
+          ####
+Title: erim181h_sharpen collection
+Author: Erim SEVER from TURKEY, Marek LETRAB from POLAND <bartelk@o2.pl>, York SHEN from TAIWAN <linashen@ms28.hinet.net>, & SokoAnalyser Program Author Victor Kindermans (inspired by Francois Marques' on line html solution analyser.) from Jean-Marie Vanroy <jmvanroy@tele2allin.be>" <xxx821006@yahoo.com.cn>'s solution.
+
+;erim_ImpossiblesEmail_1a_sharpen.xsb
+  ######
+  #    #
+###  $ ###
+#  $***  #
+# **..*  #
+#  *.+** #
+#  ***$  #
+##  $  ###
+ ##    #
+  ######
+Title: erim_ImpossiblesEmail_1a-sharpen collection
+Author: Erim SEVER from TURKEY & Michael STEINS from Groningen, The Netherlands <majsteins@zonnet.nl>

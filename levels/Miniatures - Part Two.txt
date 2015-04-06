@@ -1,0 +1,449 @@
+Miniatures - Part Two (hard)
+
+Collection: Miniatures - Part Two (hard)
+Author: Jordi Domenech
+Email: jd_sokoban@abelmartin.com
+Website:
+http://www.abelmartin.com/rj/sokoban.html
+http://sokoban-jd.blogspot.com/
+Copyright: (c) Jordi Domenech
+Date: December 2010
+
+Author's note:
+Continuation of "Miniatures - Part One", with 30 hard levels.
+
+----------------------------------------------------------------------
+
+These levels are copyright (c) by Jordi Domenech and may be freely
+distributed for non-commercial use provided they remain unchanged,
+credited with the author's name, and provided the author is notified.
+
+License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported
+http://creativecommons.org/licenses/by-nc-nd/3.0/
+
+-----------------------------------------------------------------------
+
+
+#############
+#           #
+# #### #### #
+# #       # #
+# # ***** # #
+# # *   * # #
+# . *$+$* . #
+# # *   * # #
+# # ***** # #
+# #       # #
+# ####$#### #
+#           #
+#############
+Author: Jordi Domenech
+Title: Level 1
+
+#################################
+#   #   #   #   #   #   #   #   #
+# #.$.# # #$ $# # # #$# #.#$  # #
+# #   # # #   # # #.$.# #.#   # #
+# #*.*#   #$.$#    .*.   .#.$## #
+# # $ # # # $ # # #.$.# # # $ # #
+# $.@.$ # ..... # $   $ # $. .$ #
+# ##$## # ##$#######$## # ##$## #
+#       #       #       #       #
+#################################
+Author: Jordi Domenech
+Title: Level 2 Zen
+
+    ##### ####
+    #   # #  #
+##### #$###  #
+#  $    #  $ #
+#  ##$#...# ##
+## #  #...$  #
+ # # # ...## #
+ #  $ $## ## ##
+ #  #$      $ #
+ ##@  #####   #
+  #####   #####
+Author: Jordi Domenech
+Title: Level 3
+
+#####
+# @ #####
+#$#$ #  #
+# $  $  ##
+#.#      #
+# $ #### #
+#   ...*.#
+##########
+Author: Jordi Domenech
+Title: Level 4
+
+#########
+#  ##   #
+# $.*.. #
+#  $ $# ##
+## #$ $  #
+ # ..*.$ #
+ #@  ##  #
+ #########
+Author: Jordi Domenech
+Title: Level 5
+
+#### #####
+#  ###   #
+# $$     #
+#  #### ##
+## # #  #
+ # # #$ #
+ # # #  #
+ # # #$ #
+ # # #  #
+## ###$ ##
+# *..... #
+# @ ##   #
+##########
+Author: Jordi Domenech
+Title: Level 6
+
+   #######
+   #     #
+   #***$ #
+   #   * #
+####   * #
+# .# *** #
+# *  *   #
+# **** ###
+#   @  #
+########
+Author: Jordi Domenech
+Title: Level 7
+
+########
+#      #
+#***** #
+#    * #
+#  # * #
+# $#*  #
+#   *  #
+## *## #
+#  * . #
+# * # ##
+# *   @#
+########
+Author: Jordi Domenech
+Title: Level 8 Seven
+
+###############
+#   $ ..#  .. #
+# ##  ##   #$$#
+# .##  $$$$  .#
+## $ $ $  $ #.#
+#..# .#$@ $ $ #
+# $##  $$$$   #
+#   .  #   #.##
+#.#$##.. $##$ #
+# .  # ## ..  #
+#  #..$ .  .#.#
+###############
+Author: Jordi Domenech
+Title: Level 9 Small maze
+
+  ####
+ ##  #########
+ #           #
+ # $ # $#    #
+ # $## $ #  ##
+##  $ $#    #
+# $ # $  #.##
+#    $ #... #
+## $$##.... #
+ ###   ...###
+   # @ ####
+   #####
+Author: Jordi Domenech
+Title: Level 10 Yasuhiro Morita style
+
+     #####
+ #####   #####
+ # .   #.    #
+ # #.#$#.##  #
+##$#.$    $$##
+# $  ## #$# ##
+#.#$ .  .  $ #
+# # ####$#.# #
+# $ ..  $. # #
+#   ## @ #   #
+##############
+Author: Jordi Domenech
+Title: Level 11 Slalom
+
+ #########
+ #  ##   #
+ #    $  ###
+ # $###$#  #
+###.*.$ #  #
+#  ...#    #
+# $...  # ##
+## ###$##$ #
+#    $     #
+#  ### @####
+#  # ####
+####
+Author: Jordi Domenech
+Title: Level 12
+
+    ######
+ ####    #  ####
+ #  #$#$ ####  #
+##    $   $    #
+#  #### #####  #
+# $#...* #  # ##
+#  #..*.. ..# #
+## # #####$##$##
+# $          $ #
+#   #### @ #   #
+#####  #########
+Author: Jordi Domenech
+Title: Level 13 Original 29 revised
+
+#####
+#   #####
+# $ * * #
+# * * $ #
+# * . * #
+# * *@. #
+# * * * #
+###   ###
+  #####
+Author: Jordi Domenech
+Title: Level 14 Parallels
+
+####
+#  #####
+# $#   #
+#  *.* ##
+#  *@*  #
+#  *.*  #
+##  ##$ #
+ #####  #
+     ####
+Author: Jordi Domenech
+Title: Level 15 Make a square 2
+
+#########
+#   #   #
+#   * $ #
+#  *.*  #
+##**@**##
+#  *.*  #
+# $ *   #
+#   #   #
+#########
+Author: Jordi Domenech
+Title: Level 16
+
+ #####
+ #   ###
+ #     ######
+### ## ##   #
+# $*...*. # #
+#@# #$##    #
+#  $  $   ###
+###   #####
+  #####
+Author: Jordi Domenech
+Title: Level 17
+
+ ########
+ # ..   ##
+ # . $ $ #
+ #$.###  #
+## . @# ##
+# $#$## ##
+#  * $ $ #
+# ..     #
+##########
+Author: Jordi Domenech
+Title: Level 18 G-clef
+
+  ####
+  #  #
+  #  ######
+  #  ##   #
+  ##    $ #
+### $.##$##
+# $ #...  #
+#   ...#$ #
+####$#.$  #
+   #@  ####
+   # $##
+   #  #
+   ####
+Author: Jordi Domenech
+Title: Level 19
+
+##########
+#   ##   #
+#   .    #
+##$#.###$#
+#   .### #
+# ##.$ # #
+#  $...$ ##
+##$## ##  #
+# $       #
+#  @#######
+#####
+Author: Jordi Domenech
+Title: Level 20 Big L
+
+    ####
+   ##  ##
+ ### .  #
+##  *$* ##
+#  *   * ##
+# .$ + $. #
+## * $ *  #
+ ## *$*  ##
+  #  . ###
+  ##  ##
+   ####
+Author: Jordi Domenech
+Title: Level 21
+
+############
+##. * . . .#
+#. $ $ $ $ #
+# $###$## .#
+#. #   ##$ #
+# $# #.   .#
+#. $ .#$#$ #
+# $#    # .#
+#. ##$###$ #
+# $ $ $ $ .#
+#. .@. * .##
+############
+Author: Jordi Domenech
+Title: Level 22
+
+   ##########
+####     #  #
+# *   # *   #
+#  .# *  *  #
+##  * $### ##
+ # ##  #   #
+ #  #### $*#
+##*  * #*# #
+#  *#*   . #
+#      # @ #
+####  ######
+   ####
+Author: Jordi Domenech
+Title: Level 23 Yoshio Sakae style
+
+   ####
+####  #####
+#  #  #   ####
+# $$ $# #$#  #
+#  #      $  #
+## ##### ##  #
+##     .*.#$##
+#  #$#$...#  #
+#    # ...   #
+###  ### @#  #
+  #### #######
+Author: Jordi Domenech
+Title: Level 24 ZiKo style hard
+
+ ############
+##          ##
+# $**.*.**$  #
+#.*  *#*  *$ #
+# $**.*.**$ @#
+#           ##
+#############
+Author: Jordi Domenech
+Title: Level 25
+
+##########
+#        ##
+# ******  #
+#*     *$ #
+# .***** @#
+#        ##
+##########
+Author: Jordi Domenech
+Title: Level 26 Parallels hard
+
+       #####
+  ######   #
+  #      $ #
+  # *****  #
+  # *   * ##
+### *   * #
+#   *   * #
+# **.**** #
+# *@*     #
+###** #####
+  #   #
+# #####
+Author: Jordi Domenech
+Title: Level 27 What is this
+
+###############
+#      #  #   #
+#.**** # ## * #
+#    * #  #   #
+#### * ########
+#  # * #      #
+# ## * # **$  #
+## # * # *  @##
+# ## * # * ####
+## # *   * #  #
+# ## ***** ## #
+#  #       #  #
+###############
+Author: Jordi Domenech
+Title: Level 28 Small snake
+
+############# #####################
+#       #   # #   # ###   # ###   #
+# *****   * # # * *  #  * *  #  * #
+# *    *  * # # * **   ** **   ** #
+# * ##  * * # # * * * * * * * * * #
+# * ### * * # # * *  *  * *  *  * #
+# * # # * * # # * *  #  * *     * #
+# * # # * * # # * * ####* * # # *##
+# * # # * * # # * * # # * * # # * #
+# * ###$* * # # * * # # * * # # * #
+# * ##  * * ####* * # # * *## # * #
+# *    *  *     * * # # * * #.# * #
+# *****    *****  *#### * * ####* #
+#@      ##              # #       #
+###################################
+Author: Jordi Domenech
+Title: Level 29 Dumm
+
+###################
+#                 #
+#        *        #
+#       *#*    *  #
+#      *#@#*  *#* #
+#      # $ #   *  #
+#     *#   #*     #
+#     # * * #     #
+#    *#  #  #*    #
+#    # * * * #    #
+#   *#  # #  #*   #
+#   # * * * * #   #
+#  *#  # # #  #*  #
+#  # * * * * * #  #
+# *#  #  #  #  #* #
+# # * * *.* * * # #
+# #             # #
+# ############### #
+#        #        #
+#      #####      #
+#                 #
+###################
+Author: Jordi Domenech
+Title: Level 30 From Spain, happy new year 2011 to all Sokoban lovers

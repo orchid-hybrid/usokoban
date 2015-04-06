@@ -1,0 +1,1106 @@
+Homz Challenge
+
+Collection: Homz Challenge
+Author: Marti Homs
+Email: homz70@gmail.com
+Copyright: (c) 2011 by Marti Homs
+Website: http://sapiens.ya.com/sokobanhomz/
+Date: July 2011
+
+Author's note:
+The most beautiful and clever 80 puzzles of Marti Homs, selected by Jordi 
+Domenech. Highly recommended collection for beginners!
+
+These levels are copyright (c) by Marti Homs and may be freely distributed for 
+non-commercial use provided they remain unchanged, credited with the author's 
+name, and provided the author is notified. 
+
+This collection was downloaded from http://www.abelmartin.com/rj/sokoban.html
+
+
+
+####
+#  #
+#  #####
+#      #
+##@.#$ #
+#   #  #
+#   ####
+#####
+Author: Marti Homs
+Title: #1 
+Set: Maps after all #67
+Best steps: 34
+
+
+ ######
+ #    #
+##$ . #
+#  @  #
+# $#. #
+#  ####
+####
+Author: Marti Homs
+Title: #2 
+Set: Maps after all #12
+Best steps: 43
+
+
+####
+#. #
+#. ###
+#@$  #
+# $  #
+#  ###
+####
+Author: Marti Homs
+Title: #3 
+Set: Choriban levels #5 Chorimalism 5
+Best steps: 34
+
+
+#######
+#. @  #
+#  $$ #
+### .##
+  #  #
+  ####
+Author: Marti Homs
+Title: #4 
+Set: Churros-like generated levels #6 Compact no.3
+Best steps: 34
+
+
+  ####
+###  #
+#  *@#
+#  $.##
+###   #
+  #   #
+  #####
+Author: Marti Homs
+Title: #5 
+Set: Maps after all #4
+Best steps: 38
+
+
+####
+#  #
+# @#
+#.$###
+#    #
+#.$# #
+##   #
+ #####
+Author: Marti Homs
+Title: #6 
+Set: Maps after all #16
+Best steps: 55
+
+
+ ######
+##    #
+#  ## ##
+# $.$. #
+## #   #
+ # @ ###
+ #####
+Author: Marti Homs
+Title: #7 
+Set: Easy-works #69
+Best steps: 69
+
+
+  ####
+  #  ###
+###$.@ #
+#   #  #
+#  $. ##
+#  #  #
+####  #
+   ####
+Author: Marti Homs
+Title: #8 
+Set: Maps after all #10
+Best steps: 68
+
+
+  ######
+  #    #
+###    #
+#   #.##
+#  $$.#
+##   @#
+ ######
+Author: Marti Homs
+Title: #9 
+Set: Maps after all #60
+Best steps: 72
+
+
+ #####
+ #   #
+##$#.#
+#    ##
+# $#. #
+## @  #
+ ###  #
+   ####
+Author: Marti Homs
+Title: #10 
+Set: Maps after all #14
+Best steps: 87
+
+
+########
+#   #  #
+#  .   #
+##$##  #
+# @.#  #
+# $    #
+#####  #
+    ####
+Author: Marti Homs
+Title: #11 
+Set: Maps after all #20
+Best steps: 92
+
+
+#####
+#..+#
+# $$##
+##$  #
+#    #
+#    #
+######
+Author: Marti Homs
+Title: #12 
+Set: Choriban levels #13 Susi 6
+Best steps: 48
+
+
+ #####
+ #   #
+ #   #
+###  ##
+# $$$ #
+# .+. #
+#######
+Author: Marti Homs
+Title: #13 
+Set: Funny template levels #36
+Best steps: 36
+
+
+####
+#  ###
+#    #
+# $. #
+## * #
+ #$. #
+ # @##
+ ####
+Author: Marti Homs
+Title: #14 
+Set: Easy-works #7
+Best steps: 54
+
+
+   ######
+#### @  #
+#   $$$ #
+# #  # ##
+#...   #
+########
+Author: Marti Homs
+Title: #15 
+Set: Choriban levels #32 arr.
+Best steps: 86
+
+
+     ####
+######  #
+#    $  #
+# # +*. #
+# #  $  #
+#   #####
+#####
+Author: Marti Homs
+Title: #16 
+Set: Funny template levels #25
+Best steps: 69
+
+
+ ######
+ #    #
+## #  #
+#.*#  #
+#. # ###
+#@$$   #
+#  #   #
+########
+Author: Marti Homs
+Title: #17 
+Set: Choriban levels #47 arr.
+Best steps: 84
+
+
+ ######
+ #    #
+## ...#
+# $$$ #
+# @ ###
+#####
+Author: Marti Homs
+Title: #18 
+Set: Maps after all #31
+Best steps: 62
+
+
+#######
+# ..  #
+# .@$ #
+## $$ #
+ ###  #
+   ####
+Author: Marti Homs
+Title: #19 
+Set: Maps after all #34 arr.
+Best steps: 56
+
+
+####
+# @#
+#  ####
+#$$$  #
+#...  #
+#  #  #
+#  #  #
+#######
+Author: Marti Homs
+Title: #20 
+Set: Maps after all #117
+Best steps: 57
+
+
+  #####
+  # + #
+### * ##
+#  $*  #
+#      #
+########
+Author: Marti Homs
+Title: #21 
+Set: Easy-works #61
+Best steps: 71
+
+
+####
+#  #
+#  ####
+#  $  #
+##$*. #
+#  . ##
+#  @ #
+######
+Author: Marti Homs
+Title: #22 
+Set: Louder than hell levels #5
+Best steps: 64
+
+
+#######
+#     #
+#.# # #
+# $$. #
+#.  ###
+# #$#
+#  @#
+#####
+Author: Marti Homs
+Title: #23 
+Set: Choriban levels #30
+Best steps: 75
+
+
+ ######
+ #    #
+## ...#
+# $$ $#
+#@ #  #
+#  #  #
+#######
+Author: Marti Homs
+Title: #24 
+Set: Maps after all #156
+Best steps: 66
+
+
+#########
+#   @.. #
+# $$$   #
+### ### #
+  #    .#
+  #######
+Author: Marti Homs
+Title: #25 
+Set: Ay carumba levels #9
+Best steps: 90
+
+
+  ####
+###  ###
+#. $ $ #
+#@#  # #
+# #$.. #
+#   ####
+#####
+Author: Marti Homs
+Title: #26 
+Set: Funny template levels #31
+Best steps: 80
+
+
+  ####
+ ##  #
+##.$ #
+# $.@#
+# .$ #
+#  ###
+#  #
+####
+Author: Marti Homs
+Title: #27 
+Set: Funny template levels #83
+Best steps: 36
+
+
+#####
+#   #
+#   ####
+##$$ $ #
+ #.. . #
+ #  ####
+ #@ #
+ ####
+Author: Marti Homs
+Title: #28 
+Set: Maps after all #134
+Best steps: 52
+
+
+ ####
+##  #
+#   ###
+# *.@ #
+##$*  #
+#   ###
+#   #
+#####
+Author: Marti Homs
+Title: #29 
+Set: Maps after all #79
+Best steps: 41
+
+
+  ####
+  #  #
+###$ ##
+# +*. #
+#  $  #
+#   ###
+#   #
+#####
+Author: Marti Homs
+Title: #30 
+Set: Funny template levels #27
+Best steps: 58
+
+
+  #####
+ ##   #
+ #  # #
+##+$**#
+#   # #
+#     #
+#######
+Author: Marti Homs
+Title: #31 
+Set: Easy-works #78
+Best steps: 68
+
+
+#####
+#   ####
+# #    #
+#  *## #
+### #  ###
+  # #.$* #
+  # #    #
+  # #@# ##
+  # ###  #
+  #      #
+  #####  #
+      ####
+Author: Marti Homs
+Title: #32 
+Set: Funny template levels #15 arr.
+Best steps: 71
+
+
+   ######
+   #    #
+   # ## #
+####  . #
+#@.$ $ ##
+# # $# #
+# ## #.#
+#      #
+########
+Author: Marti Homs
+Title: #33 
+Set: Funny template levels #32 arr.
+Best steps: 83
+
+
+########
+#  #   #
+# .  ..#
+#   ####
+# $$$ #
+###@  #
+  #####
+Author: Marti Homs
+Title: #34 
+Set: 4.55am levels #10
+Best steps: 63
+
+
+  ####
+###  #
+#    ##
+# $ $ #
+#  #$@#
+#... ##
+######
+Author: Marti Homs
+Title: #35 
+Set: Choriban levels #48
+Best steps: 80
+
+
+ ####
+ #  ####
+ #     #
+##$.. .#
+#  ##@##
+# $$  #
+#     #
+#######
+Author: Marti Homs
+Title: #36 
+Set: Coloured apples #1 Introduction to coloured apples
+Best steps: 118
+
+
+####
+# .#
+# .#####
+#$  $@ #
+#   $  #
+#. #####
+####
+Author: Marti Homs
+Title: #37 
+Set: Ay carumba levels #11
+Best steps: 87
+
+
+    ####
+  ###@ #
+###    #
+# $$#. #
+#.    ##
+# $ # #
+###  .#
+  #####
+Author: Marti Homs
+Title: #38 
+Set: Churros-like generated levels #10
+Best steps: 121
+
+
+#####
+#   #
+# # #
+#   ###
+#*+$* #
+#     #
+####  #
+   ####
+Author: Marti Homs
+Title: #39 
+Set: Funny template levels #12
+Best steps: 70
+
+
+   ####
+####  #
+#  .$ #
+#  .$@#
+###.$##
+  #  #
+  #  #
+  ####
+Author: Marti Homs
+Title: #40 
+Set: Easy-works #39
+Best steps: 42
+
+
+####
+#  ###
+# $. #
+#  $.#
+##$. #
+ #@ ##
+ #  #
+ ####
+Author: Marti Homs
+Title: #41 
+Set: Picolevels #8
+Best steps: 61
+
+
+   ####
+####  #
+#  #  ##
+#  $$$ #
+#@.. . #
+####  ##
+   ####
+Author: Marti Homs
+Title: #42 
+Set: Maps after all #138
+Best steps: 77
+
+
+     ####
+######  #
+#       #
+#@.**$  #
+##   ####
+ #####
+Author: Marti Homs
+Title: #43 
+Set: Funny template levels #1
+Best steps: 62
+
+
+####
+#  #####
+# .. @ #
+# $ ## #
+##  ## #
+ #$. $ #
+ #  ####
+ ####
+Author: Marti Homs
+Title: #44 
+Set: Funny template levels #33
+Best steps: 78
+
+
+  ####
+  #  #
+### $###
+#  $.$ #
+#  .@. #
+##   ###
+ #####
+Author: Marti Homs
+Title: #45 
+Set: Funny template levels #39
+Best steps: 70
+
+
+  ########
+###  #   #
+#  +$**# #
+#        #
+#####  ###
+    ####
+Author: Marti Homs
+Title: #46 
+Set: Funny template levels #81 arr.
+Best steps: 97
+
+
+######
+#    ##
+#  .  #
+##$*$ #
+ # .@##
+ ##  #
+  ####
+Author: Marti Homs
+Title: #47 
+Set: Maps after all #72
+Best steps: 62
+
+
+####
+#  ##
+# .@#
+# * #
+##* ##
+# $  #
+#    #
+###  #
+  ####
+Author: Marti Homs
+Title: #48 
+Set: Maps after all #90
+Best steps: 60
+
+
+ #####
+ #   #####
+## #  #  #
+# $**+   #
+#    ##  #
+####    ##
+   ######
+Author: Marti Homs
+Title: #49 
+Set: Funny template levels #78(bis) arr.
+Best steps: 101
+
+
+  #####
+  # . #
+###$. #
+#   . #
+# $$  #
+## @###
+ ####
+Author: Marti Homs
+Title: #50 
+Set: Choriban levels #20
+Best steps: 64
+
+
+######
+#    #
+#@$$ #
+##$..#
+ # . #
+ ##  #
+  ####
+Author: Marti Homs
+Title: #51 
+Set: Choriban levels #28
+Best steps: 74
+
+
+#######
+#     #
+# #$. #
+#  $.##
+###$.#
+  #@ #
+  #  #
+  ####
+Author: Marti Homs
+Title: #52 
+Set: Template-based levels #14
+Best steps: 85
+
+
+  ####
+### @#
+#  * ##
+#  *. #
+#  *$ #
+#   ###
+#####
+Author: Marti Homs
+Title: #53 
+Set: Picolevels #6
+Best steps: 59
+
+
+   #####
+   #   #
+####@# #
+#    $ #
+# #...##
+# $ #$#
+###   #
+  #####
+Author: Marti Homs
+Title: #54 
+Set: Picolevels #13 Funtastic 21
+Best steps: 102
+
+
+ ####
+##  #
+#   ####
+#  *$@ #
+#  .*  #
+###  ###
+  ####
+Author: Marti Homs
+Title: #55 
+Set: Louder than hell levels #1 arr.
+Best steps: 56
+
+
+  ####
+  #  #
+  #@ #
+###$*###
+#  *.  #
+#      #
+#  #####
+####
+Author: Marti Homs
+Title: #56 
+Set: Louder than hell levels #7
+Best steps: 87
+
+
+  ####
+  #  #
+###$.#
+#  $.#
+# #$.#
+# #@ #
+# #  #
+#    #
+######
+Author: Marti Homs
+Title: #57 
+Set: Template-based levels #9
+Best steps: 98
+
+
+####
+#  ###
+# .$.###
+#  $   #
+###  @.#
+  #$ ###
+  #  #
+  ####
+Author: Marti Homs
+Title: #58 
+Set: Coloured apples #6 Orange apple
+Best steps: 86
+
+
+ ######
+##.  .#
+# . # #
+#   $ #
+# $#$##
+## @ #
+ #####
+Author: Marti Homs
+Title: #59 
+Set: Cl-cl-close to the Solution #1 arr.
+Best steps: 97
+
+
+#######
+#  .  #
+# #*# #
+#* $  #
+#  @ ##
+#  ###
+####
+Author: Marti Homs
+Title: #60 
+Set: Cl-cl-close to the Solution #2 arr.
+Best steps: 102
+
+
+#####
+#.  #
+#.# ###
+#   $ #
+# $$. #
+#  @###
+#####
+Author: Marti Homs
+Title: #61 
+Set: Cl-cl-close to the Solution #13
+Best steps: 80
+
+
+  ####
+  #  #
+ ##  #
+ #@  #
+##$* #
+# *.##
+#   #
+##  #
+ #  #
+ ####
+Author: Marti Homs
+Title: #62 
+Set: Funny template levels #11
+Best steps: 45
+
+
+#####
+#   #
+# # ##
+# #+ ##
+# $*$ #
+#  .  #
+####  #
+   ####
+Author: Marti Homs
+Title: #63 
+Set: Funny template levels #58
+Best steps: 58
+
+
+  #####
+  #   #
+###   #
+#  $.##
+#  $+#
+###$.#
+  #  #
+  #  #
+  ####
+Author: Marti Homs
+Title: #64 
+Set: Funny template levels #100 Funtastic
+Best steps: 70
+
+
+  ####
+  #  #
+  # .###
+###$ $ #
+# @ $# #
+# #..  #
+#   ####
+#####
+Author: Marti Homs
+Title: #65 
+Set: Picolevels #17 Funtastic 21
+Best steps: 60
+
+
+  ####
+###  #
+#   *#
+# # .#
+#  @$##
+### * #
+  #   #
+  #####
+Author: Marti Homs
+Title: #66 
+Set: Orange levels #1 Funtastic compact 29
+Best steps: 102
+
+
+#########
+# @ #   #
+# .***$ #
+##    # #
+ ###    #
+   #  ###
+   ####
+Author: Marti Homs
+Title: #67 
+Set: Orange levels #3
+Best steps: 86
+
+
+   ####
+####  #
+#  #$.#
+#   $.#
+#  #$.#
+## #  #
+ #  @ #
+ ######
+Author: Marti Homs
+Title: #68 
+Set: Ay carumba levels #5 arr.
+Best steps: 79
+
+
+ ####
+ #  ###
+ #$   #
+ #@$. #
+##$#.##
+#   .#
+#    #
+######
+Author: Marti Homs
+Title: #69 
+Set: Ay carumba levels #2
+Best steps: 109
+
+
+  ####
+ ##  #
+## $ #
+# .$.##
+#  $. #
+###@  #
+  ##  #
+   ####
+Author: Marti Homs
+Title: #70 
+Set: Ay carumba levels #14
+Best steps: 77
+
+
+#####
+# . ###
+# . $ #
+# @ . #
+## #.##
+ # $  #
+ ##$$ #
+  #   #
+  #####
+Author: Marti Homs
+Title: #71 
+Set: Ay carumba levels #10 arr.
+Best steps: 101
+
+
+    ####
+ ####  #
+## @   #
+# ***. #
+#  $   #
+#  #####
+####
+Author: Marti Homs
+Title: #72 
+Set: 4.55am levels #19
+Best steps: 73
+
+
+  ####
+  #  ###
+###    #
+# $$*  #
+# .@. ##
+#  ####
+####
+Author: Marti Homs
+Title: #73 
+Set: Maps after all #153
+Best steps: 65
+
+
+  ####
+  #  ###
+###.@. #
+#  $.# #
+#   $  #
+#### $##
+   #  #
+   ####
+Author: Marti Homs
+Title: #74 
+Set: Picolevels #10
+Best steps: 106
+
+
+   ####
+####  #
+#@ #  #
+#.$*$.##
+#  #   #
+##   # #
+ # ### #
+ #     #
+ #######
+Author: Marti Homs
+Title: #75 
+Set: Template-based levels #7
+Best steps: 106
+
+
+ #####
+ # . #
+##@ $###
+#  *   #
+# * *  #
+##   ###
+ #####
+Author: Marti Homs
+Title: #76 
+Set: Ay carumba levels #13
+Best steps: 91
+
+
+ #####
+ #   #
+##$# #
+# @  #
+# # .##
+#.$$. #
+###   #
+  #####
+Author: Marti Homs
+Title: #77 
+Set: Ay carumba levels #17
+Best steps: 138
+
+
+#######
+#     #
+# # # ##
+# . $. #
+###$*$ #
+  # . ##
+  ##@ #
+   ####
+Author: Marti Homs
+Title: #78 
+Set: Coloured apples #15 Last apple in dub (arr.)
+Best steps: 101
+
+
+ ######
+ #    #
+ #$##.#
+## ##.##
+#   $. #
+# $  @ #
+###  ###
+  ####
+Author: Marti Homs
+Title: #79 
+Set: Ay carumba levels #1
+Best steps: 90
+
+
+ ####
+ #  #
+ #  ###
+ # *$@#
+## *. #
+#  * ##
+#    #
+######
+Author: Marti Homs
+Title: #80 
+Set: Orange levels #25
+Best steps: 105

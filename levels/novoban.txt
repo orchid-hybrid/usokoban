@@ -1,0 +1,529 @@
+// These levels are copyrighted by François Marques <sokoban@online.fr> //
+// The original file is downloadable at http://sokoban.online.fr/ //
+
+####
+#  ###
+#  $@#
+# *. #
+##   #
+ #####
+Title: Be ban 10
+Comment: © 05/2001 François Marques
+
+####
+#  #
+#  ###
+#  $ #
+##*#.#
+#  @ #
+#    #
+#  ###
+####
+Title: Be ban 9
+Comment: © 06/2001 François Marques
+
+####
+#  #
+#  #
+# @###
+# $$ #
+#.  .#
+######
+Title: Be ban 7
+Comment: © 04/2001 François Marques
+
+#####
+#   #
+#.#$##
+#  @ #
+#. $ #
+###  #
+  ####
+Title: Be ban 1
+Comment: © 03/2001 François Marques
+
+  ####
+###  #
+#.$$.#
+# #  #
+# @  #
+###  #
+  ####
+Title: Be ban 5
+Comment: © 01/2001 François Marques
+
+  ####
+###  #
+#    #
+#   .###
+### #@.#
+  # $$ #
+  #  $ #
+  #. ###
+  ####
+Title: Try ban 5
+Comment: © 02/2001 François Marques
+
+ #####
+##...##
+# $$$.#
+# $+$ #
+#.$$$ #
+##..  #
+ ######
+Title: Surrounded
+Comment: © 01/2001 François Marques
+
+ ######
+##    #
+# $## ##
+#      #
+##  .@.#
+ #$# ###
+ #   #
+ #####
+Title: Be ban 3
+Comment: © 01/2001 François Marques
+
+ ####
+##  ####
+#      #
+# ..#$ #
+###  $ #
+  ###@ #
+    ####
+Title: The gun
+Comment: © 06/2001 François Marques
+
+    #####
+    #   #
+##### # ##
+#  # $   #
+#   $  # #
+# .. #   #
+###@ #####
+  #  #
+  ####
+Title: Be ban 2
+Comment: © 01/2001 François Marques
+
+  #####
+  #   ###
+###@$.  #
+#  *#   #
+#   $. ##
+#####  #
+   #####
+Title: Try ban 11
+Comment: © 01/2001 François Marques
+
+####
+#  ####
+# .   #
+# @$$ #
+##  ###
+ #. #
+ #  #
+ ####
+Title: Be ban 14
+Comment: © 07/2001 François Marques
+
+ #####
+##  .#
+# $#.#
+#    ##
+## #  #
+ #$ @ #
+ #   ##
+ #####
+Title: Be Ban 04
+Comment: © 01/2001 François Marques
+
+   #####
+   #   #
+####   #
+#.*   ##
+# $#  #
+#@ #  #
+#######
+Title: The dog
+Comment: © 06/2001 François Marques
+
+####
+#.@#
+#  ###
+# $  #
+# $. #
+#  ###
+####
+Title: Be ban 6
+Comment: © 04/2001 François Marques
+
+   ####
+   #  #
+   #  #
+####  ####
+#   # $@ #
+#     $$.#
+### ###  #
+ ## .#####
+ #   #
+ #.  #
+ #####
+Title: Try ban 7
+Comment: © 02/2001 François Marques
+
+     #
+    ###
+  ## @ ##
+ # . * . #
+# $.$*$.$ #
+#  ## ##  #
+#         #
+###########
+Title: The house
+Comment: © 01/2001 François Marques
+
+ #######
+ #    .#
+ # ###.#
+## #   #
+#  # $ #
+#  @ $##
+#  #  #
+#######
+Title: Be ban 11
+Comment: © 05/2001 François Marques
+
+  ####
+###  ####
+#    #@.#
+#    $$.#
+#  ## $.#
+#####   #
+    #####
+Title: Try ban 6
+Comment: © 01/2001 François Marques
+
+ #####
+ # @ ###
+ # #   #
+##$.*# #
+# $.*  #
+# #  ###
+#    #
+######
+Title: For ban 21
+Comment: © 03/2001 François Marques
+
+  ##
+ #  #
+ #$@#
+ #.$##
+##.$  ##
+# .#   ##
+#       #
+#####   #
+    #####
+Title: The finger
+Comment: © 04/2001 François Marques
+
+####
+#  ###
+# @  #
+#. #$##
+##.$  #
+# $.# #
+# #   #
+#    ##
+###  #
+  ####
+Title: Try ban 1
+Comment: © 03/2001 François Marques
+
+ #######
+##  #  ###
+# $ # $  #
+#  .@.   #
+##$ # $###
+ # . . #
+ #######
+Title: For ban 9
+Comment: © 01/2001 François Marques
+
+####
+#  #####
+#  .*. #
+# $ $ @#
+#   ####
+#####
+Title: Try ban 17
+Comment: © 04/2001 François Marques
+
+#######
+#. . .#
+#   # #
+##  $ #
+ # $$##
+ #  @#
+ #####
+Title: Try ban 19
+Comment: © 05/2001 François Marques
+
+ ####
+ #  ##
+##   ##
+# @$$ #
+# # # #
+#..   #
+#######
+Title: Be ban 8
+Comment: © 04/2001 François Marques
+
+  ####
+  # .#
+###  ##
+# $$  #
+#     #
+##$# ##
+ #.@.#
+ #####
+Title: Try ban 20
+Comment: © 06/2001 François Marques
+
+  #####
+  #   #
+###$# ##
+#  $@$ #
+# #    #
+#... ###
+######
+Title: Try ban 21
+Comment: © 05/2001 François Marques
+
+######
+#    #
+#  .$#####
+##*+$    #
+ # .$#   #
+ ##  #####
+  ####
+Title: For ban 4
+Comment: © 05/2001 François Marques
+
+ #######
+## .   #
+# $*$# #
+# #@   #
+#  . ###
+######
+Title: Try ban 22
+Comment: © 05/2001 François Marques
+
+ #######
+##....@##
+#  $ #$ #
+#  $  $ #
+#  ##   #
+#########
+Title: For ban 8
+Comment: © 04/2001 François Marques
+
+   ####
+#### @#
+#  $$ #
+# . $ #
+##.. ##
+ #####
+Title: Try ban 10
+Comment: © 04/2001 François Marques
+
+########
+# .@.  #
+# $ $  #
+##*#*###
+#     #
+#     #
+#  ####
+####
+Title: For ban 35
+Comment: © 03/2001 François Marques
+
+#######
+# .   #
+#  $..#
+###$*###
+# $@   #
+#      #
+########
+Title: For ban 18
+Comment: © 03/2001 François Marques
+
+  ####
+###  #
+#    ##
+# # ..#
+# $$$@#
+### # #
+  #  .#
+  #####
+Title: Try ban 14
+Comment: © 03/2001 François Marques
+
+  #####
+###   #
+# $$$@#
+#... ##
+#    #
+######
+Title: Try ban 16
+Comment: © 03/2001 François Marques
+
+  #####
+ ##   #
+ # @  #
+## $ ##
+# $* #
+# #. #
+#  .##
+#####
+Title: Try ban 18
+Comment: © 04/2001 François Marques
+
+  ####
+  #  #
+###$ ##
+#  $  #
+#@#*. ##
+#  *.  #
+###    #
+  ######
+Title: For ban 26
+Comment: © 03/2001 François Marques
+
+    #####
+  ###@  #
+  #. $ .#
+  #  $ ##
+ ### ###
+## $  #
+#     #
+#.  ###
+#####
+Title: Try ban 8
+Comment: © 02/2001 François Marques
+
+####
+#  ##
+#@. #
+#..$##
+# $$ #
+#    #
+######
+Title: Try ban 15
+Comment: © 03/2001 François Marques
+
+  ####
+  #  ###
+### .  #
+#@$$$  #
+#   #. #
+###.  ##
+  #####
+Title: Try ban 23
+Comment: © 05/2001 François Marques
+
+ ####
+ #  #
+ #  ####
+ # ..* #
+## $$@ #
+#   ####
+#   #
+#####
+Title: Try ban 28
+Comment: © 08/2001 François Marques
+
+#####
+#   ###
+#  .$ ###
+## .# $ #
+ # .# $@#
+ ##.  $ #
+  #  ####
+  ####
+Title: For ban 10
+Comment: © 05/2001 François Marques
+
+####
+#  #####
+#    @ ##
+# .*.$* #
+##  #$  #
+ ##   ###
+  #####
+Title: The plane
+Comment: © 04/2001 François Marques
+
+    ####
+#####  #
+#   ..$##
+# $@# $ #
+##$..   #
+ #  ##  #
+ ########
+Title: For ban 6
+Comment: © 05/2001 François Marques
+
+ #####
+ #   #
+ # #$##
+##..@ #
+# *.$ #
+# # $##
+#    #
+######
+Title: For ban 17
+Comment: © 03/2001 François Marques
+
+###
+#.#####
+#...  #
+# # # ###
+#   $$ @#
+###  $$ #
+  ###   #
+    #####
+Title: For ban 27
+Comment: © 03/2001 François Marques
+
+ ########
+ #  ## .#
+##   $  #
+#  $#$ .#
+#   #@ ##
+#. ##  #
+########
+Title: Try ban 4
+Comment: © 02/2001 François Marques
+
+ #####
+ #   #
+##   ###
+# $$$$ #
+# .... #
+## @ ###
+ #####
+Title: For ban 37
+Comment: © 03/2001 François Marques
+
+########
+#.. @..#
+#  $$$ #
+#### ####
+#       #
+#     $ #
+#  ######
+####
+Title: For ban 5
+Comment: © 01/2001 François Marques
