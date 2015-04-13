@@ -1296,6 +1296,8 @@ int sokoban_check(SOKOBAN *skb)
 	return 1;
 }
 
+gint max(gint a, gint b) { return a > b ? a : b; }
+
 void sokoban_resize_topwindow(SOKOBAN *skb, GtkWidget *top,GtkWidget *draw_area,   GdkPixbuf *skin)
 {
 	int tile_size=gdk_pixbuf_get_width(skin)/4;
@@ -1307,7 +1309,11 @@ void sokoban_resize_topwindow(SOKOBAN *skb, GtkWidget *top,GtkWidget *draw_area,
 	//g_message("%d,%d",gdk_screen_get_width(screen),gdk_screen_get_height(screen));
 	
 	//gtk_window_set_default_size (GTK_WINDOW(top),w, tile_size*skb->h+ dh );
-	gtk_window_resize (GTK_WINDOW(top),w, tile_size*skb->h+ dh ); 
+	gint oldw, oldh;
+	gtk_window_get_size(GTK_WINDOW(top), &oldw, &oldh);
+	oldw = max(oldw, w);
+	oldh = max(oldh, tile_size*skb->h+ dh);
+	gtk_window_resize (GTK_WINDOW(top), oldw, oldh); 
 
 	//gtk_window_set_position(GTK_WINDOW(top), GTK_WIN_POS_CENTER);
 
