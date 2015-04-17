@@ -2,6 +2,7 @@
 #include <gdk/gdkkeysyms.h>
 #include <string.h>
 #include <stdlib.h>
+#include <libgen.h>
 
 #include "sokoban.h"
 #include "settings.h"
@@ -541,6 +542,37 @@ static void get_level_filename ()
 
 }
 
+
+static void get_skin_filename ()
+//( GtkWidget *w,                        gpointer   data )
+{
+  
+	GtkWidget *dialog;
+	char *skin_folder=NULL;
+	int i;
+	dialog = gtk_file_chooser_dialog_new ("Open Skin File",
+					      NULL,   // can this be NULL ?
+					      GTK_FILE_CHOOSER_ACTION_OPEN,
+					      GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL,
+					      GTK_STOCK_OPEN, GTK_RESPONSE_ACCEPT,
+					      NULL);
+	skin_folder=dirname(skin_filename);
+	gtk_file_chooser_set_current_folder (GTK_FILE_CHOOSER (dialog),skin_folder);
+
+	if (gtk_dialog_run (GTK_DIALOG (dialog)) == GTK_RESPONSE_ACCEPT){
+	  strncpy(skin_filename,gtk_file_chooser_get_filename (GTK_FILE_CHOOSER (dialog)),1000);
+		
+	  //g_message("%s\n",level_folder);
+	  
+	  skin=gdk_pixbuf_new_from_file (skin_filename, &error); 
+	  sokoban_resize_topwindow(skb, window, draw_area,skin);
+	  sokoban_show(skb, draw_area, skin, SS_NEW);
+	  
+	}
+	gtk_widget_destroy (dialog);
+
+}
+
 /* about */
 static void about ( gpointer   callback_data,
                             guint      callback_action,
@@ -565,6 +597,7 @@ USokoban is a GTK+ version of this classic game.",
 static GtkItemFactoryEntry menu_items[] = {
   { "/_Game",         NULL,         NULL,           0, "<Branch>" },
   { "/Game/_Open",    NULL, get_level_filename,    0, "<Item>" },
+  { "/Game/_Skin",    NULL, get_skin_filename,    0, "<Item>" },
   { "/Game/_Quit",    NULL, destroy,            0, "<Item>" },
   { "/_Help",         NULL,         NULL,           0, "<Branch>" },
   { "/Help/_About",   NULL,         about,           0, "<Item>" },
