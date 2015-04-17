@@ -609,7 +609,11 @@ static void controls ( gpointer   callback_data,
 				  "Control-Right: next level\n"
 				  "Backspace: Undo move\n"
 				  "Space: Redo move\n"
-				  "Escape: Restart Level\n",
+				  "Escape: Restart Level\n"
+				  "\n"
+				  "Click a space to move there\n"
+				  "Click a box to see where it can be pushed,\n"
+				  "(and click again to push it there)\n",
 				  "title");
   
   gtk_window_set_title(GTK_WINDOW(dialog), "Controls");
