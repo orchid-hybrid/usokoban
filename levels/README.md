@@ -64,3 +64,14 @@ Making of Sokoban Problems</A>, which was presented at the Pacific Rim Conferenc
 These levels are small (no more than 8x8), and contain only 3 stones to push, 
 but can be delightfully tricky and surprisingly difficult to solve.
 
+# kenyam
+
+* http://www.geocities.co.jp/Playtown-Domino/7999/soko/skrmc_a.htm
+
+ 倉庫番自作面 (My Original Level Data for Sokoban) - Kenyam Set A
+
+My Best : #15, #24
+My Favorites (Next Best) : #8, #18, #13, #16, #6, #27, #35, #22, #43, #44
+My Not Recommended (may be modified or replaced) : #4, #3, #38
+
+also got a nice skin there.
