@@ -561,7 +561,7 @@ static void get_skin_filename ()
 
 	if (gtk_dialog_run (GTK_DIALOG (dialog)) == GTK_RESPONSE_ACCEPT){
 	  strncpy(skin_filename,gtk_file_chooser_get_filename (GTK_FILE_CHOOSER (dialog)),1000);
-		
+	  
 	  //g_message("%s\n",level_folder);
 	  
 	  skin=gdk_pixbuf_new_from_file (skin_filename, &error); 
@@ -592,6 +592,31 @@ USokoban is a GTK+ version of this classic game.",
                        NULL);
 }
 
+/* controls */
+static void controls ( gpointer   callback_data,
+                            guint      callback_action,
+                            GtkWidget *menu_item )
+{
+	
+  GtkWidget *dialog;
+  dialog = gtk_message_dialog_new(GTK_WINDOW(window),
+				  GTK_DIALOG_DESTROY_WITH_PARENT,
+				  GTK_MESSAGE_INFO,
+				  GTK_BUTTONS_OK,
+				  "USokoban Controls\n\n"
+				  "Arrow keys: Move and Push\n"
+				  "Control-Left: previous level\n"
+				  "Control-Right: next level\n"
+				  "Backspace: Undo move\n"
+				  "Space: Redo move\n"
+				  "Escape: Restart Level\n",
+				  "title");
+  
+  gtk_window_set_title(GTK_WINDOW(dialog), "Controls");
+  gtk_dialog_run(GTK_DIALOG(dialog));
+  gtk_widget_destroy(dialog);
+}
+
 
 /* Our menu, an array of GtkItemFactoryEntry structures that defines each menu item */
 static GtkItemFactoryEntry menu_items[] = {
@@ -601,6 +626,7 @@ static GtkItemFactoryEntry menu_items[] = {
   { "/Game/_Quit",    NULL, destroy,            0, "<Item>" },
   { "/_Help",         NULL,         NULL,           0, "<Branch>" },
   { "/Help/_About",   NULL,         about,           0, "<Item>" },
+  { "/Help/_Controls",   NULL,         controls,           0, "<Item>" },
 };
 
 static gint nmenu_items = sizeof (menu_items) / sizeof (menu_items[0]);
