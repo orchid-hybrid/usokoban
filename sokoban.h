@@ -46,31 +46,35 @@ enum { STATUS_NONLEVEL, STATUS_COMMENT, STATUS_TOP_BOUNDARY, STATUS_INLEVEL,
 
 typedef struct
 {
-	char		*level;  
-	char		*target;
+	char		*level; /* stores the level compoments @ - $ (man, empty square, box) */
+	char		*target; /* stores the level component . (target square) */
 	char 		*hint;
 	int            level_len;
-	int              w;
-        int              h;
+	int              w; /* width of the level [squares] */
+	int              h; /* height of the level [squares] */
 
 
-	int			pi;  /*row index of the man  */
-	int			pj;
+	int			pi;  /* row index of the pusher  */
+	int			pj;  /* column index of the pusher */
 
-	int	bi; /*row index for selected box*/
-	int    bj;
+	int	bi; /* row index for selected box */
+	int    bj; /* column index for selected box */
 
-	char		*solution;
+	int	box_i; /* row index of last touched box */
+	int	box_j; /* column index of last touched box */
+
+	char		*solution; /* move sequence as a string of [urdlURDL] */
 	int		solution_len;
 	int			solution_head;  
 	int			solution_tail;  // this is also the number of moves
 
 	int              n_push;  // number of pushes
+	int		n_boxchange; // number of box changes
 
 	int              mode; //solved? unsolve?
 	int		wall_click;
-	unsigned long long   key;
-	unsigned long long key2;
+	unsigned long long   key; /* Zobrist key over the positions of the boxes. Pusher position, targets, walls and the general layout are ignored. */
+	unsigned long long key2; /* Zobrist key over the positiions of the targets. Pusher position, boxes, walls and the general layout are ignored. */
 
 }SOKOBAN;
 

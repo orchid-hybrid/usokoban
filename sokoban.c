@@ -453,11 +453,14 @@ void sokoban_copy_all(SOKOBAN *skb1, SOKOBAN *skb2) // skb->hint is not copy yet
 	skb1->pj=skb2->pj;  
 	skb1->bi=skb2->bi;
 	skb1->bj=skb2->bj;
+	skb1->box_i=skb2->box_i;
+	skb1->box_j=skb2->box_j;
 	skb1->level_len=skb2->level_len;
 	skb1->solution_len=skb2->solution_len;
 	skb1->solution_tail=skb2->solution_tail;
 	skb1->solution_head=skb2->solution_head;
 	skb1->n_push=skb2->n_push;
+	skb1->n_boxchange=skb2->n_boxchange;
 	skb1->mode=skb2->mode;
 
 	free(skb1->level);free(skb1->target); free(skb1->solution);
@@ -1142,7 +1145,7 @@ int sokoban_redo(SOKOBAN *skb)
 /* return 1 if undo take place, 0 otherwise */
 int sokoban_undo(SOKOBAN *skb)
 {
-	int di=0,dj=0;
+	int di=0,dj=0,i,done;
 
 	if(skb->solution_tail==0) return 0; //already return to the begining
 
@@ -1151,7 +1154,7 @@ int sokoban_undo(SOKOBAN *skb)
 	switch(skb->solution[skb->solution_tail])
 	{
 		case SM_UP: case SM_PUSH_UP: di=-1; break;
-		case SM_DOWN: case SM_PUSH_DOWN:  di=1; break;
+		case SM_DOWN: case SM_PUSH_DOWN: di=1; break;
 		case SM_LEFT: case SM_PUSH_LEFT: dj=-1; break;
 		case SM_RIGHT: case SM_PUSH_RIGHT: dj=1; break;
 	}
@@ -1168,13 +1171,47 @@ int sokoban_undo(SOKOBAN *skb)
 		default: //i.e. push
 			skb->level[(skb->pi)*skb->w+skb->pj]='$';
 			skb->level[(skb->pi+di)*skb->w+skb->pj+dj]='-';
-			skb->n_push--;
+			--skb->n_push;
+
+			// find last box which has been touched previously.
+			// needed for updating box_i, box_j, n_boxchange
+			i = skb->solution_tail;
+			skb->box_i = (skb->pi)-di; // start with the position of man after reverting the last move
+			skb->box_j = (skb->pj)-dj;
+			done = 0;
+			while (!done) {
+				if (i==0) {
+					// reverted push was the first push
+					skb->box_i = -1;
+					skb->box_j = -1;
+					done = 1;
+				} else {
+					--i;
+						switch(skb->solution[i]) {
+						// as long as man was moving: trace the position of the man
+						case SM_UP: ++skb->box_i; break;
+						case SM_DOWN: --skb->box_i; break;
+						case SM_LEFT: ++skb->box_j; break;
+						case SM_RIGHT: --skb->box_j; break;
+
+						// found the last push: now switch to the old box position
+						case SM_PUSH_UP: --skb->box_i; done = 1;break;
+						case SM_PUSH_DOWN: ++skb->box_i; done = 1;break;
+						case SM_PUSH_LEFT: --skb->box_j; done = 1;break;
+						case SM_PUSH_RIGHT: ++skb->box_j; done = 1;break;
+					}
+				}
+			}
+			// compare old box position with latest man position (before reverting last move),
+			// which is the position of the moved box before the last push which gets reverted.
+			if ((skb->box_i != skb->pi) || (skb->box_j != skb->pj)) {
+				--skb->n_boxchange;
+			}
 		break;
 	}
 
 	skb->pi-=di;
 	skb->pj-=dj;
-	
 	
 	return 1;
 }
@@ -1195,6 +1232,7 @@ int sokoban_move(SOKOBAN *skb, char direction)
 	//g_print("invoked!");
 
 	if(skb->level[(skb->pi+di)*skb->w+skb->pj+dj]=='-'){
+		// move
 		skb->level[(skb->pi+di)*skb->w+skb->pj+dj]='@';
 		skb->level[(skb->pi)*skb->w+skb->pj]='-';
 		skb->pi+=di;
@@ -1211,6 +1249,7 @@ int sokoban_move(SOKOBAN *skb, char direction)
 		return 1;
 	}
 	else if(skb->level[(skb->pi+di)*skb->w+skb->pj+dj]=='$' && skb->level[(skb->pi+2*di)*skb->w+skb->pj+2*dj]=='-'){
+		// push
 		skb->level[(skb->pi+2*di)*skb->w+skb->pj+2*dj]='$';
 		skb->level[(skb->pi+di)*skb->w+skb->pj+dj]='@';
 		skb->level[(skb->pi)*skb->w+skb->pj]='-';
@@ -1223,7 +1262,12 @@ int sokoban_move(SOKOBAN *skb, char direction)
 		skb->solution[skb->solution_tail]=toupper(direction);
 		skb->solution_tail++;
 		skb->solution_head=skb->solution_tail;
-		skb->n_push++;
+		++skb->n_push;
+		if ((skb->box_i != skb->pi) || (skb->box_j != skb->pj)) {
+				++skb->n_boxchange;
+		}
+		skb->box_i = skb->pi+di;
+		skb->box_j = skb->pj+dj;
 		return 1;
 	}
 
@@ -1243,7 +1287,8 @@ SOKOBAN *sokoban_new_from_built_in()
 	skb->level=malloc(15*9);
 	skb->target=malloc(15*9);
 	memset(skb->target, ' ', sizeof(char)*15*9);
-	memcpy(skb->level,"###############\
+	memcpy(skb->level,"\
+###############\
 ##----##------#\
 ##$$.-##-$***-#\
 #-$.-*-##$.---#\
@@ -1251,7 +1296,8 @@ SOKOBAN *sokoban_new_from_built_in()
 #--*$.-#-$$$.-#\
 ##$.$*-##-.**-#\
 ##-@#--##--#--#\
-###############", 15*9);
+###############\
+	", 15*9);
 	
 	skb->level_len=15*9;	
 
@@ -1280,6 +1326,9 @@ SOKOBAN *sokoban_new_from_built_in()
 	skb->bi=0; skb->bj=0;
 
 	skb->n_push=0;
+	skb->n_boxchange=0;
+	skb->box_i=-1;
+	skb->box_j=-1;
 	skb->mode=SKB_UNSOLVE;
 
 	skb->key =sokoban_find_zobrist_key(skb, zob3k, 3000);
@@ -1464,9 +1513,9 @@ void sokoban_show_status(SOKOBAN *skb, GtkWidget *widget)
 
 	
 	if(skb->mode==SKB_UNSOLVE)
-		buff = g_strdup_printf ("Moves: %d/%d  Pushes: %d", skb->solution_tail,skb->solution_head,skb->n_push);
+		buff = g_strdup_printf ("Moves: %d/%d  Pushes: %d  Box changes: %d", skb->solution_tail,skb->solution_head,skb->n_push,skb->n_boxchange);
 	else
-		buff = g_strdup_printf ("Moves: %d/%d  Pushes: %d     (Solved)", skb->solution_tail,skb->solution_head,skb->n_push);
+		buff = g_strdup_printf ("Moves: %d/%d  Pushes: %d  Box changes: %d     (Solved)", skb->solution_tail,skb->solution_head,skb->n_push,skb->n_boxchange);
 	gtk_statusbar_push (GTK_STATUSBAR (widget), context_id, buff);
 
 	g_free (buff);
@@ -1523,6 +1572,9 @@ SOKOBAN  *sokoban_new()
 	skb->w=0; skb->h=0;
 
 	skb->n_push=0;
+	skb->n_boxchange=0;
+	skb->box_i=-1;
+	skb->box_j=-1;
 	skb->mode=SKB_UNSOLVE;
 	skb->bi=0; skb->bj=0;
 	skb->wall_click=0;
