@@ -31,6 +31,7 @@ int sgets(char *dest, int size, char *source, int offset) {
 }
 
 //return CC_LEVEL or CC_SOLUTION
+//if more than 90% of the first 100 characters are from [UuLlRrDd0123456789] we decide it is a CC_SOLUTION, otherwise a CC_LEVEL.
 int check_clipboard(char *p)
 {
 	int i,m=0;
@@ -45,6 +46,16 @@ int check_clipboard(char *p)
 			case 'r':
 			case 'D':
 			case 'd':
+			case '0':
+			case '1':
+			case '2':
+			case '3':
+			case '4':
+			case '5':
+			case '6':
+			case '7':
+			case '8':
+			case '9':
 				m++; break;
 		}
 	}

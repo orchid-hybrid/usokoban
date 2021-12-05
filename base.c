@@ -160,25 +160,52 @@ gpointer  auto_play_thread_2  (gpointer data)
 
 	gpointer retval=NULL;
 	int i;   	
-	for(i=0;thread_flag==1 && i<strlen(paste);i++){
+	unsigned int count = 0;
+	char dir = 0;
+	for(i=0;thread_flag==1 && i<strlen(paste);i++) {
 		switch(paste[i]){
 			case 'u':
-			case 'U': sokoban_move(skb,SM_UP); break;
+			case 'U':
+				dir = SM_UP;
+				break;
 			case 'd':
-			case 'D': sokoban_move(skb,SM_DOWN); break;
+			case 'D':
+				dir = SM_DOWN;
+				break;
 			case 'l':
-			case 'L': sokoban_move(skb,SM_LEFT); break;
+			case 'L':
+				dir = SM_LEFT;
+				break;
 			case 'r':
-			case 'R': sokoban_move(skb,SM_RIGHT); break;
-				
-
+			case 'R':
+				dir = SM_RIGHT;
+				break;
+			case '0':
+			case '1':
+			case '2':
+			case '3':
+			case '4':
+			case '5':
+			case '6':
+			case '7':
+			case '8':
+			case '9':
+				count = 10*count + paste[i] - '0';
+				break;
 		}
-		sokoban_check(skb);
-		gdk_threads_enter();
-		sokoban_show(skb, draw_area, skin, SS_FAST_UPDATE); 
-		sokoban_show_status(skb,status);
-		gdk_threads_leave();
-
+		if (dir) {
+			if (!count) ++count; // if no counter was given, count is 1
+			while (thread_flag==1 && count) {
+				sokoban_move(skb,dir);
+				sokoban_check(skb);
+				gdk_threads_enter();
+				sokoban_show(skb, draw_area, skin, SS_FAST_UPDATE);
+				sokoban_show_status(skb,status);
+				gdk_threads_leave();
+				--count;
+			}
+			dir = 0;
+		}
 	} 
 	free(paste); paste=NULL;
 	thread_flag=0;
@@ -189,18 +216,20 @@ gpointer  auto_play_thread_2  (gpointer data)
 
 void           clipboard_callback    (GtkClipboard *clipboard,  const gchar *text,      gpointer data)
 {
-	 //g_message(text);
+	//g_message(text);
 	//g_message("%s","thread_created!");
 	int i;
 	paste=malloc(strlen(text)+1);
 	strcpy(paste,text); // reserve a copy of clipboard first
 	
 	if(check_clipboard(paste)==CC_SOLUTION){
+		// g_message("reading clipboard in solution mode")
 		thread_flag=1;
 		g_thread_new ("Auto Play Thread 2", auto_play_thread_2, NULL);
 	}
 	else{ //paste levels from clipboard
 		//if(strcmp(level_filename, "Clipboard levels")!=0)
+		// g_message("reading clipboard in level mode")
 		g_free(level_filename);
 		level_filename = g_malloc(20);
 		strcpy(level_filename, "Clipboard levels");
@@ -436,43 +465,38 @@ gboolean       key_press_callback(GtkWidget   *widget,  GdkEventKey *event,   gp
 				gtk_clipboard_request_text( clipboard,  clipboard_callback, NULL); 
 			} 
 		break;
-		case GDK_c: // (ctrl+c) copy solution to clipboard
+		case GDK_c: // (ctrl+c) copy preceding moves to clipboard
 			if((event->state & GDK_CONTROL_MASK) && thread_flag==0){
 				gtk_clipboard_set_text (clipboard, skb->solution, skb->solution_tail);
 			}
 		break;
-		case GDK_p: // (ctrl+p) stop the auto replaying
+		case GDK_p: // (ctrl+p) stop auto replay
 			if((event->state & GDK_CONTROL_MASK) && thread_flag==1){
 				thread_flag=0;
 			}
 		break;
-		case GDK_l: // (ctrl+l) copy level
+		case GDK_l: // (ctrl+l) copy level to clipboard
 			if((event->state & GDK_CONTROL_MASK) && thread_flag==0){
 				sokoban_copy_level_to_clipboard(skb,clipboard, SCLTC_WITH_SOLUTION);
 			}
 		break;
-		case GDK_m: // (ctrl+m) copy level in mf8 format
+		case GDK_m: // (ctrl+m) copy level in mf8 format to clipboard
 			if((event->state & GDK_CONTROL_MASK) && thread_flag==0){
 				sokoban_copy_level_to_clipboard(skb,clipboard, SCLTC_MF8);
 			}
 		break;
-		case GDK_j: // (ctrl+m) copy level in mf8 format
+		case GDK_j: // (ctrl+j) copy level in sokojava format to clipboard
 			if((event->state & GDK_CONTROL_MASK) && thread_flag==0){
 				sokoban_copy_level_to_clipboard(skb,clipboard, SCLTC_SOKOJAVA);
 			}
 		break;
-		case GDK_n: // (ctrl+n) normalized level
+		case GDK_n: // (ctrl+n) normalize level
 			if((event->state & GDK_CONTROL_MASK) && thread_flag==0){
 				sokoban_normalize(skb);
 				sokoban_show(skb, user_data, skin, SS_NEW);
 			}
 		break;
-		
-		
-
-
 	}
-
 
 	return 1;
 }
@@ -574,51 +598,69 @@ static void get_skin_filename ()
 }
 
 /* about */
-static void about ( gpointer   callback_data,
-                            guint      callback_action,
-                            GtkWidget *menu_item )
+static void about (gpointer callback_data, guint callback_action, GtkWidget *menu_item)
 {
-     gchar *auth[] = { "anian<anianwu@gmail.com>", "Chao Yang<yangchao0710@gmail.com>","Julian Gilbey <jdg@debian.org>", "laizhufu (Level Designer)", "stopheart (Level Designer)", NULL }; 
+	gchar *auth[] = {
+		"anian<anianwu@gmail.com>",
+		"Chao Yang<yangchao0710@gmail.com>",
+		"Julian Gilbey <jdg@debian.org>",
+		"laizhufu (Level Designer)",
+		"stopheart (Level Designer)",
+		NULL
+	};
 
 	gtk_show_about_dialog (NULL,
-				"authors", auth,
-				"comments", "Sokoban is a puzzle game invented by Hiroyuki Imabayashi in 1981. \
-USokoban is a GTK+ version of this classic game.",
-                       "program-name", "USokoban",
-                       "title", "About USokoban",
+			"authors", auth,
+			"comments", "Sokoban is a puzzle game invented by Hiroyuki Imabayashi in 1981. \
+			USokoban is a GTK+ version of this classic game.",
+			"program-name", "USokoban",
+			"title", "About USokoban",
 			"version", "0.0.13",
-                          "copyright" , "Copyright (c) 2010-2012 anian, Chao YANG",
-                               "website","http://sokoban.ws/usokoban/usokoban.php",
-                       NULL);
+			"copyright" , "Copyright (c) 2010-2012 anian, Chao YANG",
+			"website","http://sokoban.ws/usokoban/usokoban.php",
+			NULL);
 }
 
 /* controls */
-static void controls ( gpointer   callback_data,
-                            guint      callback_action,
-                            GtkWidget *menu_item )
+static void controls (gpointer callback_data, guint callback_action, GtkWidget *menu_item)
 {
-	
-  GtkWidget *dialog;
-  dialog = gtk_message_dialog_new(GTK_WINDOW(window),
-				  GTK_DIALOG_DESTROY_WITH_PARENT,
-				  GTK_MESSAGE_INFO,
-				  GTK_BUTTONS_OK,
-				  "USokoban Controls\n\n"
-				  "Arrow keys: Move and Push\n"
-				  "Control-Left: previous level\n"
-				  "Control-Right: next level\n"
-				  "Backspace: Undo move\n"
-				  "Space: Redo move\n"
-				  "Escape: Restart Level\n"
-				  "\n"
-				  "Click a space to move there\n"
-				  "Click a box to see where it can be pushed,\n"
-				  "(and click again to push it there)\n",
-				  "title");
-  
-  gtk_window_set_title(GTK_WINDOW(dialog), "Controls");
-  gtk_dialog_run(GTK_DIALOG(dialog));
-  gtk_widget_destroy(dialog);
+	GtkWidget *dialog;
+	dialog = gtk_message_dialog_new(
+			GTK_WINDOW(window),
+			GTK_DIALOG_DESTROY_WITH_PARENT,
+			GTK_MESSAGE_INFO,
+			GTK_BUTTONS_OK,
+			"USokoban Controls\n\n"
+			"Arrow keys: Move and Push\n"
+			"Control-Left: previous level\n"
+			"Control-Right: next level\n"
+			"Backspace: Undo move\n"
+			"Space: Redo move\n"
+			"Escape: Restart Level\n"
+			"\n"
+			"Click a space to move there\n"
+			"Click a box to see where it can be pushed,\n"
+			"(and click again to push it there)\n"
+			"title"
+			"\n"
+			"F1, F2, F3, F4: Adjust display size\n"
+			"F11: toggle fullscreen\n"
+			"F7: load solution with lowest known number of moves\n"
+			"F8: load solution with lowest known number of pushes\n"
+			"F9: start solver\n"
+			"\n"
+			"Ctrl-n: normalize level"
+			"Ctrl-v: paste level or move sequence from clipboard\n"
+			"Ctrl-c: copy preceding moves to clipboard\n"
+			"Ctrl-l: copy level to clipboard\n"
+			"Ctrl-m: copy level in mf8 format to clipboard\n"
+			"Ctrl-j: copy level in sokojava format to clipboard\n"
+			"Ctrl-p: stop auto replay\n"
+	);
+
+	gtk_window_set_title(GTK_WINDOW(dialog), "Controls");
+	gtk_dialog_run(GTK_DIALOG(dialog));
+	gtk_widget_destroy(dialog);
 }
 
 
