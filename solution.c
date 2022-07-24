@@ -353,18 +353,15 @@ void sokoban_load_solution(SOKOBAN *skb, int t){
 		strm.zalloc=Z_NULL;
 		strm.zfree=Z_NULL;
 		strm.opaque= Z_NULL;
-		//g_message("haha -1");
 		inflateInit( &strm);
-		//g_message("haha 0");
 		strm.next_out = sql;
 		strm.avail_out = 450000+1024;
 		strm.next_in=z_blob;
 		//strm.avail_in is already set 10 lines up
 		if( inflate(&strm,Z_FINISH)==Z_STREAM_END){
-			//g_message("haha 1");			
 			len =	(char *)strm.next_out - sql;	
 			sql[len]='\0';	
-			g_message("unzlib : %d ", len);
+			//g_message("unzlib : %d ", len);
 			//z_blob[(char *)strm.next_out - z_blob]='\0';
 			//g_message("zlibed:%s", z_blob);
 
@@ -449,18 +446,15 @@ void sokoban_save_solution(SOKOBAN *skb){
 	strm.zalloc=Z_NULL;
 	strm.zfree=Z_NULL;
 	strm.opaque= Z_NULL;
-	//g_message("haha -1");
 	deflateInit( &strm, 9);
-	//g_message("haha 0");
 	strm.next_in=skb->solution;
 	strm.avail_in=skb->solution_tail;
 	strm.next_out=z_blob;
 	strm.avail_out =100000;
 	if( deflate(&strm,Z_NO_FLUSH)==Z_OK){
-		//g_message("haha 1");
 		if(deflate(&strm, Z_FINISH)==Z_STREAM_END){			
 			z_size=	(char *)strm.next_out - z_blob;		
-			g_message("zlib : %d",z_size);
+			//g_message("zlib : %d",z_size);
 			//z_blob[(char *)strm.next_out - z_blob]='\0';
 			//g_message("zlibed:%s", z_blob);
 		}
